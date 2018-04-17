@@ -22,6 +22,7 @@ I extended previous work that computed a population density heatmap based on a s
 * Successfully defended the research for my undergraduate honors thesis in Spring 2014.
 * Published at [EuroVA 2014](http://www.eurova.org). You can [read the paper here](https://doi.org/10.2312/eurova.20141143).
 
+---
 ## Screenshots
 
 ### Ibarra Surname Density - Regular Search
@@ -36,6 +37,7 @@ I extended previous work that computed a population density heatmap based on a s
 
 ![Kimes Surname Density - Regular Search](/static/img/surname-density/kimes-regular-screenshot.jpg)
 
+---
 ## External Resources
 
 * [Paper (Published at EUROGRPAHICS 2014)](https://doi.org/10.2312/eurova.20141143)

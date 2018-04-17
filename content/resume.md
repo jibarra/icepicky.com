@@ -5,9 +5,10 @@ draft: false
 toc: true
 ---
 
+---
 # Qualifications
 
-*  7 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience
+* 7 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience
 * 1.5 years of data visualization research experience
 * Developed a mainframe and Java application to manage part logistics, orders, and inventory for General Motors
 * Developed mobile applications for Sandia National Labs

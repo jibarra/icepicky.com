@@ -18,6 +18,7 @@ For this application, I developed a majority of the Android mobile application c
 * The upper layer for the AR display also used a Canvas object from Android Graphics to draw custom graphics objects on the screen. The custom objects were simple geometric objects with resource photos (e.g. profile pictures) and text of resource statistics (distance, availability).
 * An async task to listen to user movement events including gyroscope and accelerometer events. Upon receiving update events, the async task triggered the upper layer for the AR display to redraw.
 
+---
 ## Screenshots
 
 ### AR Resource Finder App Main Page

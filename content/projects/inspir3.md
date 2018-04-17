@@ -17,6 +17,7 @@ I designed and developed the entire website. I completed the following tasks:
 * Matching design and logos throughout website and social networking.
 * Integration with [Paypal](https://developer.paypal.com) to enable donations.
 
+---
 ## Screenshots
 
 ### INSPIR3 Home Page
@@ -27,6 +28,7 @@ I designed and developed the entire website. I completed the following tasks:
 
 ![INSPIR3 Contact Page](/static/img/inspir3/inspir3-contact-screenshot.jpg)
 
+---
 ## External Resources
 
 ![INSPIR3 Website](https://www.inspir3.com/)

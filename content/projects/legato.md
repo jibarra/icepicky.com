@@ -19,6 +19,7 @@ For this application, I developed most of the mobile application. I completed th
 * GUI creation utilizing built-in Android UI components, Google Material Design fundamentals & icons, Google Maps, and external UI libraries.
 * Integration of the [Android Week View Library](https://github.com/alamkanak/Android-Week-View) and the [Navigation Tab Bar Library](https://github.com/Devlight/NavigationTabBar) for UI design.
 
+---
 ## Screenshots
 
 ### Legato App Main Page

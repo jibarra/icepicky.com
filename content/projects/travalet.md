@@ -17,6 +17,7 @@ For this application I completed most of the backend Java code. I completed the 
 * Service token management for OnStar and Gmail APIs.
 * Basic static website to control the server, enabling the control of certain demonstration situations like low oil.
 
+---
 ## Screenshots
 
 ### Travalet App Main Page

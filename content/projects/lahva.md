@@ -16,6 +16,7 @@ I extended previous work that developed the base structure of the application an
 * Calculate Pearson's coefficient to provide a mathematical correlation for the weather/health correlation graph.
 * Presented research at the [Spring 2013 FURI Symposium](https://furi.engineering.asu.edu/wp-content/uploads/2013/04/FURI_abstract-spring13.pdf).
 
+---
 ## Screenshots
 
 ### LAHVA Application Screenshot
