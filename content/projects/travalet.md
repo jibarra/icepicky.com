@@ -2,6 +2,7 @@
 title: "Travalet - OnStar Integrated Car Scheduler"
 date: 2016-09-13T13:47:38-07:00
 draft: false
+pageSummary: "An overview of the OnStar integrated car scheduling Android app that enabled users to schedule car functions with their Gmail and Google Calendar events. Developed for the 2016 General Motors Arizona Hackathon."
 ---
 
 This application was created for the 2016 General Motors Arizona Hackathon. It integrates the user's email events with existing OnStar services.

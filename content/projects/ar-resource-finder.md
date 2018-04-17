@@ -2,6 +2,7 @@
 title: "AR Resource Finder"
 date: 2017-03-02T14:04:10-07:00
 draft: true
+pageSummary: "An overview of the augmented reality resource finder Android app that enabled GM employees to view resource (people, rooms, printers, bathrooms) through their phone camera. Developed for the 2017 General Motors Arizona Hackathon."
 ---
 
 This application was created for the 2017 General Motors (GM) Arizona Hackathon. It integrated with existing GM services to locate resources (people, rooms, printers, bathrooms) in an augmented reality (AR) Android application.

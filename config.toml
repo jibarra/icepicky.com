@@ -15,23 +15,14 @@ googleAnalytics = ""
 [params]
   # Theme color for Hyde pages
   themeColor = "theme-base-split"
-  # Sidebar bio for Hyde Pages
+
+  # Sidebar description for the Hyde pages
   sidebarBio = "I'm a software developer in the Phoenix area. I'm interested in mobile application development and data visualization."
-  [[params.sidebar.links]]
-    [params.sidebar.links.1]
-      text = "Resume"
-      url = "/resume/"
-    [params.sidebar.links.2]
-      text = "Projects"
-      url = "/projects/"
-    [params.sidebar.links.3]
-      text = "Blog"
-      url = "/posts/"
-  	
+
   # Metadata for search engines and social sharing
   name = "Jose Ibarra"
   description = "Jose Ibarra is a software developer in the Phoenix area. Development interests include mobile application development and data visualization."
-  shareImage = "images/social.jpg"
+  shareImage = "static/img/jose.jpg"
   twitterHandle = "icepickpenguin"
 
   # Favicon
@@ -55,7 +46,17 @@ googleAnalytics = ""
       file = "static/img/jose.jpg"
       position = "center center"
 
-  
+  # Sidebar information for Hyde Pages
+  [[params.sidebar.links]]
+    [params.sidebar.links.1]
+      text = "Resume"
+      url = "/resume/"
+    [params.sidebar.links.2]
+      text = "Projects"
+      url = "/projects/"
+    [params.sidebar.links.3]
+      text = "Blog"
+      url = "/posts/"
 
   # Links
   #

@@ -1,6 +1,8 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+{{ .Hugo.Generator }}
+
 <!-- SEO -->
 <title>{{ .Title }}</title>
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}" />{{ end }}
