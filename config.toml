@@ -1,0 +1,91 @@
+# Site settings
+baseURL = "https://www.icepicky.com/"
+languageCode = "en-US"
+title = "Jose Ibarra"
+theme = "split-hyde"
+# disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # Theme color for Hyde pages
+  themeColor = "theme-base-split"
+  # Sidebar bio for Hyde Pages
+  sidebarBio = "I'm a software developer in the Phoenix area. I'm interested in mobile application development and data visualization."
+  [[params.sidebar.links]]
+    [params.sidebar.links.1]
+      text = "Resume"
+      url = "/resume/"
+    [params.sidebar.links.2]
+      text = "Projects"
+      url = "/projects/"
+    [params.sidebar.links.3]
+      text = "Blog"
+      url = "/posts/"
+  	
+  # Metadata for search engines and social sharing
+  name = "Jose Ibarra"
+  description = "Jose Ibarra is a software developer in the Phoenix area. Development interests include mobile application development and data visualization."
+  shareImage = "images/social.jpg"
+  twitterHandle = "icepickpenguin"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "2018 Jose Ibarra"
+
+  # Section - Content
+  [params.content]
+    name = "Software Developer"
+    tagline = "Jose Ibarra"
+    bio = "I'm a software developer in the Phoenix area. I'm interested in mobile application development and data visualization. Please check out my [resume](/resume/) and the [projects I've created](/projects). I cover my development interests and different hobbies on my [blog](/posts)."
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "static/img/jose.jpg"
+      position = "center center"
+
+  
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Personal"
+
+      [[params.links.list1.link]]
+        text = "Resume"
+        url = "/resume/"
+
+      [[params.links.list1.link]]
+        text = "Projects"
+        url = "/projects/"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Connect"
+
+      [[params.links.list2.link]]
+        text = "Blog"
+        url = "/posts/"
+
+      [[params.links.list2.link]]
+        text = "Email"
+        url = "mailto:jose@icepicky.com"
+
+      [[params.links.list2.link]]
+        text = "Github"
+        url = "https://github.com/jibarra"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
