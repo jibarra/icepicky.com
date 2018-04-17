@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.38" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Surname Search - Surname Population Density &amp; Income Distribution &middot; Jose Ibarra</title>
+
+  
+  <link rel="stylesheet" href="https://www.icepicky.com/assets/css/print.css" media="print">
+  <link rel="stylesheet" href="https://www.icepicky.com/assets/css/poole.css">
+  <link rel="stylesheet" href="https://www.icepicky.com/assets/css/syntax.css">
+  <link rel="stylesheet" href="https://www.icepicky.com/assets/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Jose Ibarra" />
+</head>
+
+  <body class="theme-base-split ">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://www.icepicky.com/"><h1>Jose Ibarra</h1></a>
+      <p class="lead">
+       I&#39;m a software developer in the Phoenix area. I&#39;m interested in mobile application development and data visualization. 
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="https://www.icepicky.com/">Home</a> </li>
+      
+        
+          <li><a href="/resume/">Resume</a></li>
+        
+          <li><a href="/projects/">Projects</a></li>
+        
+          <li><a href="/posts/">Blog</a></li>
+        
+      
+    </ul>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>Surname Search - Surname Population Density &amp; Income Distribution</h1>
+  <span class="post-date">Fri, Apr 18, 2014</span>
+  
+  
+
+<p>This application was developed for my undergraduate honors thesis and was accepted and published at EuroVA 2014. The work was supported partially from an award from U.S. Department of Homeland Security’s VACCINE Center and a grant from the Engineering and Physical Sciences Research Council UK EPSRC. It received surname input from the user and output a population density map and income distribution for that surname.</p>
+
+<p>The application combined Java web services and MySQL on the backend and HTML, Javascript, <a href="https://d3js.org">d3.js</a>, <a href="http://jquery.com">jQuery</a>, and the <a href="https://developers.google.com/maps/web/">Google Maps API</a> on the frontend. The application also utilized Java to precompute surname population densities and income distribution. The precomputation for the surname data utilized a phonebook database to link surnames to latitudes and longitudes. Each surname within the database estimated the density utilizing a <a href="https://en.wikipedia.org/wiki/Kernel_density_estimation">kernel density estimation</a> function. With the surnames precomputed, when a user entered a surname, the web service simply looked up the precomputed data and returned it to the frontend. The frontend displayed the population density heatmap on top of a Google map of the United States and utilized <a href="https://d3js.org">D3.js</a> to display the income distribution and a similar names word cloud.</p>
+
+<p>I extended previous work that computed a population density heatmap based on a surname. My contributions and results from the project include:</p>
+
+<ul>
+<li>Rewrote the population density heatmap calculation to compute the kernel density estimation for a surname based on a regular distribution (plain distribution with no restrictions) and probabilistic distribution (lowering the probability based on the total population density of that area).</li>
+<li>Added calculations for income distribution based on the given surname utilizing <a href="https://www.census.gov/data/data-tools.html">United States Census data</a>. Later added additional options for the income distribution to utilize the <a href="https://www.zillow.com/howto/api/APIOverview.htm">Zillow API</a>.</li>
+<li>Converted from on demand surname calculations to precomputed population densities and income distributions.</li>
+<li>Expanded the application to find similar surnames based on the given surname&rsquo;s distribution heatmap and income distribution.</li>
+<li>Integration with the <a href="https://developers.google.com/maps/web/">Google Maps API</a> to compute the population distribution heatmap overlay image and to display this image on top of a Google Map on the frontend.</li>
+<li><a href="https://d3js.org">D3.js</a> integration to graph the income distribution in predefined bins.</li>
+<li><a href="https://github.com/jasondavies/d3-cloud">D3-Cloud</a> (a D3.js extension) integration to display the most similar surnames for a given surname.</li>
+<li>Integrated with the <a href="https://developer.twitter.com">Twitter API</a> to allow users to tweet about using the application.</li>
+<li>Presented the application at the Spring 2014 Barrett Honors Symposium.</li>
+<li>Successfully defended the research for my undergraduate honors thesis in Spring 2014.</li>
+<li>Published at <a href="http://www.eurova.org">EuroVA 2014</a>. You can <a href="https://doi.org/10.2312/eurova.20141143">read the paper here</a>.</li>
+</ul>
+
+<h2 id="screenshots">Screenshots</h2>
+
+<h3 id="ibarra-surname-density-regular-search">Ibarra Surname Density - Regular Search</h3>
+
+<p><img src="/static/img/surname-density/surname-density-base-screenshot.png" alt="Ibarra Surname Density - Regular Search" /></p>
+
+<h3 id="ibarra-surname-density-probabilistic-search">Ibarra Surname Density - Probabilistic Search</h3>
+
+<p><img src="/static/img/surname-density/ibarra-probabilistic-screenshot.jpg" alt="Ibarra Surname Density - Probabilistic Search" /></p>
+
+<h3 id="kimes-surname-density-regular-search">Kimes Surname Density - Regular Search</h3>
+
+<p><img src="/static/img/surname-density/kimes-regular-screenshot.jpg" alt="Kimes Surname Density - Regular Search" /></p>
+
+<h2 id="external-resources">External Resources</h2>
+
+<ul>
+<li><a href="https://doi.org/10.2312/eurova.20141143">Paper (Published at EUROGRPAHICS 2014)</a></li>
+<li><a href="https://vader.dtn.asu.edu:8443/NameAnalysis/html/index.html">Demo</a></li>
+<li><a href="https://www.youtube.com/watch?v=pANl4YJ1C5I&amp;feature=youtu.be">Video</a></li>
+<li><a href="https://github.com/jibarra/Geo-Genealogy-Research">Github</a></li>
+<li><a href="https://bitbucket.org/jibarra/geo-genealogy-research">Bitbucket</a></li>
+</ul>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>
