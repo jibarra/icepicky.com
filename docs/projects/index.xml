@@ -6,10 +6,20 @@
     <description>Recent content in Projects on Jose Ibarra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 25 Nov 2016 13:18:54 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 14:04:10 -0700</lastBuildDate>
     
 	<atom:link href="http://www.icepicky.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AR Resource Finder</title>
+      <link>http://www.icepicky.com/projects/ar-resource-finder/</link>
+      <pubDate>Thu, 02 Mar 2017 14:04:10 -0700</pubDate>
+      
+      <guid>http://www.icepicky.com/projects/ar-resource-finder/</guid>
+      <description>This application was created for the 2017 General Motors (GM) Arizona Hackathon. It integrated with existing GM services to locate resources (people, rooms, printers, bathrooms) in an augmented reality (AR) Android application.
+The application utilizes a custom AR framework to display the resources on the screen. The application utilized multiple Android services like the location, compass, gyroscope, accelerometer &amp;amp; camera to position AR objects on the screen. A resource&amp;rsquo;s location was determined by comparing the user&amp;rsquo;s current location, height &amp;amp; compass position and the target resource&amp;rsquo;s location &amp;amp; height; the framework also weighted AR object size by distance from the user.</description>
+    </item>
     
     <item>
       <title>Legato - Autonomous Vehicle Manager</title>
