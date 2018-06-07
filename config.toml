@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://www.icepicky.com/"
+baseURL = "https://www.icepicky.com/"
 languageCode = "en-US"
 title = "Jose Ibarra"
 # This is a custom theme combining Split (homepage) and Hyde (every other page) themes

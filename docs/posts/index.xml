@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jose Ibarra</title>
-    <link>http://www.icepicky.com/posts/</link>
+    <link>https://www.icepicky.com/posts/</link>
     <description>Recent content in Posts on Jose Ibarra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 03 Feb 2018 16:04:28 -0700</lastBuildDate>
     
-	<atom:link href="http://www.icepicky.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.icepicky.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>This is my first post</title>
-      <link>http://www.icepicky.com/posts/test/</link>
+      <link>https://www.icepicky.com/posts/test/</link>
       <pubDate>Sat, 03 Feb 2018 16:04:28 -0700</pubDate>
       
-      <guid>http://www.icepicky.com/posts/test/</guid>
+      <guid>https://www.icepicky.com/posts/test/</guid>
       <description>Nothing much to see here</description>
     </item>
     

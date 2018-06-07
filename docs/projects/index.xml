@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Jose Ibarra</title>
-    <link>http://www.icepicky.com/projects/</link>
+    <link>https://www.icepicky.com/projects/</link>
     <description>Recent content in Projects on Jose Ibarra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 02 Mar 2017 14:04:10 -0700</lastBuildDate>
     
-	<atom:link href="http://www.icepicky.com/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.icepicky.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AR Resource Finder</title>
-      <link>http://www.icepicky.com/projects/ar-resource-finder/</link>
+      <link>https://www.icepicky.com/projects/ar-resource-finder/</link>
       <pubDate>Thu, 02 Mar 2017 14:04:10 -0700</pubDate>
       
-      <guid>http://www.icepicky.com/projects/ar-resource-finder/</guid>
+      <guid>https://www.icepicky.com/projects/ar-resource-finder/</guid>
       <description>This application was created for the 2017 General Motors (GM) Arizona Hackathon. It integrated with existing GM services to locate resources (people, rooms, printers, bathrooms) in an augmented reality (AR) Android application.
 The application utilizes a custom AR framework to display the resources on the screen. The application utilized multiple Android services like the location, compass, gyroscope, accelerometer &amp;amp; camera to position AR objects on the screen. A resource&amp;rsquo;s location was determined by comparing the user&amp;rsquo;s current location, height &amp;amp; compass position and the target resource&amp;rsquo;s location &amp;amp; height; the framework also weighted AR object size by distance from the user.</description>
     </item>
     
     <item>
       <title>Legato - Autonomous Vehicle Manager</title>
-      <link>http://www.icepicky.com/projects/legato/</link>
+      <link>https://www.icepicky.com/projects/legato/</link>
       <pubDate>Fri, 25 Nov 2016 13:18:54 -0700</pubDate>
       
-      <guid>http://www.icepicky.com/projects/legato/</guid>
+      <guid>https://www.icepicky.com/projects/legato/</guid>
       <description>This application was created for the 2016 General Motors National Hackathon Championships. It integrates the user&amp;rsquo;s life with autonomous vehicle services.
 The application utilizes calendars provided by the user to schedule events for your autonomous car to use. The application can automatically suggest events by querying the OnStar API for things like oil levels. Calendar events and destinations display on the Android app so the user is aware of their car&amp;rsquo;s location.</description>
     </item>
     
     <item>
       <title>Travalet - OnStar Integrated Car Scheduler</title>
-      <link>http://www.icepicky.com/projects/travalet/</link>
+      <link>https://www.icepicky.com/projects/travalet/</link>
       <pubDate>Tue, 13 Sep 2016 13:47:38 -0700</pubDate>
       
-      <guid>http://www.icepicky.com/projects/travalet/</guid>
+      <guid>https://www.icepicky.com/projects/travalet/</guid>
       <description>This application was created for the 2016 General Motors Arizona Hackathon. It integrates the user&amp;rsquo;s email events with existing OnStar services.
 The applciation utilizes Google&amp;rsquo;s Gmail API to find events in the future and automatically schedule oil changes, tire pressure stops and gas station stops. The application utilized different stop and end times for events, such as waking up the user, starting the car and the car leaving for the final destination.</description>
     </item>
     
     <item>
       <title>INSPIR3.com - Development &amp; Design</title>
-      <link>http://www.icepicky.com/projects/inspir3/</link>
+      <link>https://www.icepicky.com/projects/inspir3/</link>
       <pubDate>Sun, 28 Aug 2016 13:47:27 -0700</pubDate>
       
-      <guid>http://www.icepicky.com/projects/inspir3/</guid>
+      <guid>https://www.icepicky.com/projects/inspir3/</guid>
       <description>This website was created for INSPIR3 - Mental Wellness Center in the summer of 2016. The website is a basic static website that describes the vision and goals of INSPIR3 and promotes their capital campaign.
 The website utilizes the Foundation framework from ZURB for the design of the website. Node.js is the HTTP server for the website and the blogging platform used for the website. The HTTP server utilized Express.</description>
     </item>
     
     <item>
       <title>Surname Search - Surname Population Density &amp; Income Distribution</title>
-      <link>http://www.icepicky.com/projects/surname-search/</link>
+      <link>https://www.icepicky.com/projects/surname-search/</link>
       <pubDate>Fri, 18 Apr 2014 13:47:54 -0700</pubDate>
       
-      <guid>http://www.icepicky.com/projects/surname-search/</guid>
+      <guid>https://www.icepicky.com/projects/surname-search/</guid>
       <description>This application was developed for my undergraduate honors thesis and was accepted and published at EuroVA 2014. The work was supported partially from an award from U.S. Department of Homeland Security’s VACCINE Center and a grant from the Engineering and Physical Sciences Research Council UK EPSRC. It received surname input from the user and output a population density map and income distribution for that surname.
 The application combined Java web services and MySQL on the backend and HTML, Javascript, d3.</description>
     </item>
     
     <item>
       <title>Linked Animal-Human Health Visual Analytics (LAHVA) Expansion</title>
-      <link>http://www.icepicky.com/projects/lahva/</link>
+      <link>https://www.icepicky.com/projects/lahva/</link>
       <pubDate>Fri, 26 Apr 2013 13:48:06 -0700</pubDate>
       
-      <guid>http://www.icepicky.com/projects/lahva/</guid>
+      <guid>https://www.icepicky.com/projects/lahva/</guid>
       <description>This application was developed for the Spring 2013 Fulton Undergraduate Research Initiative (FURI). The application allowed users to load a health and weather data set to display graphically on a map. The map displayed the counties for a country and changed the color of a county based on the number of health incidents. The user could change the the health condition (such as gastrointestinal problems) or the weather condition (such as temperature).</description>
     </item>
     
