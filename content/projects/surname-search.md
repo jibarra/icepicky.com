@@ -42,7 +42,7 @@ I extended previous work that computed a population density heatmap based on a s
 ## External Resources
 
 * [Paper (Published at EUROGRPAHICS 2014)](https://doi.org/10.2312/eurova.20141143)
-* [Demo](https://vader.dtn.asu.edu:8443/NameAnalysis/html/index.html)
+* [Demo](https://demo.vaderlab.org/name/)
 * [Video](https://www.youtube.com/watch?v=pANl4YJ1C5I&feature=youtu.be)
 * [Github](https://github.com/jibarra/Geo-Genealogy-Research)
 * [Bitbucket](https://bitbucket.org/jibarra/geo-genealogy-research)

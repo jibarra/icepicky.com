@@ -7,9 +7,13 @@ pageSummary: "Jose Ibarra's resume covering previous project & development exper
 ---
 
 ---
+
+[PDF version of this resume](/static/pdf/Jose%20Ibarra%20Resume.pdf)
+
+---
 # Qualifications
 
-* 7 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience
+* 8 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience
 * 1.5 years of data visualization research experience
 * Developed a mainframe and Java application to manage part logistics, orders, and inventory for General Motors
 * Developed mobile applications for Sandia National Labs
@@ -31,17 +35,23 @@ framework.
 
 General Motors: *Internal Project, June 2015 - Present*
 
-* Monolithic, 24/7 supply chain system that manages the planning, ordering, and scheduling for parts and shipping in manufacturing plants, managing millions of dollars of supply.
-* Developed backend modules to do a majority of business logic; used frontend (JSP, JS, jQuery), backend (Java), mainframe technologies (PL/I and COBOL).
-* Implemented streamlined estimations and agile-like development to enable a fast, responsive development process so a project deployed a month ahead of schedule.
-* Improved mainframe unit testing framework utilizing Junit which shifted unit testing from mostly manual to mostly automated, significantly reducing retest time.
+* Monolithic, 24/7 supply chain system that manages the planning, ordering, and scheduling for
+parts and shipping in manufacturing plants, managing billions of dollars of supply.
+* Developed backend modules to do a majority of business logic; used frontend (JSP, JS, jQuery),
+backend (Java), mainframe technologies (PL/I and COBOL).
+* Improved mainframe unit testing framework utilizing Junit which shifted unit testing from mostly
+manual to mostly automated, significantly reducing retest time.
 * Led proof of concept for upgrading Struts 1 to Struts 2 and improved existing estimates by 35%.
-* Improved existing Struts 1 migration tools to improve web page upgrade time by 20%.
-* Developed a proof of concept mobile application utilizing Angular.js which was expected to improve plant worker productivity through a simple UI.
+* Technical leader for a Struts 1 to SpringMVC conversion project.
+* Improved existing and created new Struts 1 conversion tools to lower file conversion time by 20%.
+* Developed a proof of concept mobile application utilizing Angular.js which was expected to
+improve plant worker productivity through a simple UI.
+* Trained 20 new hires in Java and SpringMVC skill to onboard them quickly for a Struts 1 to
+SpringMVC conversion project.
 
 ## Geo-Genealogy and Geo-Demographics Data Visualization Research
 
-VADER Research Lab: *https://doi.org/10.2312/eurova.20141143, August 2013 - May 2014*
+VADER Research Lab: *https://doi.org/10.2312/eurova.20141143, https://demo.vaderlab.org/name/, August 2013 - May 2014*
 
 * Application displayed a heatmap of surname density for the United States and the income distribution for that surname in a web application utilizing JS, jQuery, D3.js and Java web services.
 * Mined over 60 million data records from US phonebooks and correlated to zip code-based US Census records; stored data and mining results in MySQL and MongoDB.
@@ -64,15 +74,16 @@ reduced conference room scheduling time by 10-20%; integrated ArcGIS, Objective-
 
 * EuroVis Workshop on Visual Analytics 2014: *Wang F., Ibarra J., Adnan M., Longley P., Maciejewski R.*
 * https://doi.org/10.2312/eurova.20141143
+* https://demo.vaderlab.org/name/
 
 ---
 # Education
 
 ## Computer Science, M.C.S.
 
-Arizona State University, Tempe, AZ. *January 2015 - December 2018*
+Arizona State University, Tempe, AZ. *January 2015 - August 2018*
 
-* *Current GPA:* 3.63
+* *Overall GPA:* 3.70
 
 ## Computer Science, B.S. Honors Diploma
 
@@ -112,3 +123,7 @@ Arizona State University: Tempe, AZ. *Jan. 2013 - May 2014*
 * Programming Languages - Java, Javascript, Python, PL/I, COBOL
 * Frameworks & Libraries - jQuery, Spring MVC, Android
 * Programs and Tools - IntelliJ, Gradle, Vim, Git, Junit, Selenium, Jenkins
+
+---
+
+[PDF version of this resume](/static/pdf/Jose%20Ibarra%20Resume.pdf)
