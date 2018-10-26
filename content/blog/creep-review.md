@@ -1,7 +1,8 @@
 ---
 title: "Creep Review"
 date: 2018-10-25T19:28:23-07:00
-draft: true
+publishdate: 2018-10-25T19:28:23-07:00
+draft: false
 ---
 
 The Creep movie series is a frightening exploration of a realistic situation with a mentally unstable person.
