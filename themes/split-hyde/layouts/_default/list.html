@@ -1,5 +1,9 @@
 {{ define "main" -}}
+{{ if .Content -}}
+<h1>{{ .Content }}</h1>
+{{- else -}}
 <h1>{{ .Title }}</h1>
+{{- end }}
 <ul class="posts">
 {{ range .Data.Pages -}}
   <li>

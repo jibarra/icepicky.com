@@ -35,7 +35,7 @@ googleAnalytics = ""
   [params.content]
     name = "Software Developer"
     tagline = "Jose Ibarra"
-    bio = "I'm a software developer and MCS and BS Computer Science graduate from Arizona State University. I'm interested in mobile application development and data visualization. Please check out my [resume](/resume/) and the [projects I've created](/projects). I cover my development interests and different hobbies on my [blog](/posts)."
+    bio = "I'm a software developer and MCS and BS Computer Science graduate from Arizona State University. I'm interested in mobile application development and data visualization. Please check out my [resume](/resume/) and the [projects I've created](/projects). I cover my development interests and different hobbies on my [blog](/blog)."
 
   # Section - Visual
   [params.visual]
@@ -56,7 +56,7 @@ googleAnalytics = ""
       url = "/projects/"
     [params.sidebar.links.3]
       text = "Blog"
-      url = "/posts/"
+      url = "/blog/"
 
   # Links
   #
@@ -80,7 +80,7 @@ googleAnalytics = ""
 
       [[params.links.list2.link]]
         text = "Blog"
-        url = "/posts/"
+        url = "/blog/"
 
       [[params.links.list2.link]]
         text = "Email"

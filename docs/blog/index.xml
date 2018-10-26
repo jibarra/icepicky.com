@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts on Jose Ibarra</title>
+    <link>//www.icepicky.com/blog/</link>
+    <description>Recent content in Blog Posts on Jose Ibarra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 25 Oct 2018 19:24:25 -0700</lastBuildDate>
+    
+	<atom:link href="//www.icepicky.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This is my first post</title>
+      <link>//www.icepicky.com/blog/test/</link>
+      <pubDate>Sat, 03 Feb 2018 16:04:28 -0700</pubDate>
+      
+      <guid>//www.icepicky.com/blog/test/</guid>
+      <description>Nothing much to see here</description>
+    </item>
+    
+  </channel>
+</rss>

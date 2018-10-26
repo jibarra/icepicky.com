@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.icepicky.com/blog/</loc>
+    <lastmod>2018-10-25T19:24:25-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.icepicky.com/resume/</loc>
     <lastmod>2018-04-15T14:58:26-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//www.icepicky.com/posts/test/</loc>
+    <loc>//www.icepicky.com/blog/test/</loc>
     <lastmod>2018-02-03T16:04:28-07:00</lastmod>
   </url>
   
@@ -50,12 +55,6 @@
   <url>
     <loc>//www.icepicky.com/</loc>
     <lastmod>2018-04-15T14:58:26-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//www.icepicky.com/posts/</loc>
-    <lastmod>2018-02-03T16:04:28-07:00</lastmod>
     <priority>0</priority>
   </url>
   
