@@ -6,8 +6,6 @@ title = "Jose Ibarra"
 theme = "split-hyde"
 # Added for publishing on Github Pages
 publishDir = "docs"
-# disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
-
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

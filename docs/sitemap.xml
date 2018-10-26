@@ -64,13 +64,26 @@
   </url>
   
   <url>
+    <loc>//www.icepicky.com/tags/movie/</loc>
+    <lastmod>2018-10-25T19:28:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.icepicky.com/projects/</loc>
     <lastmod>2017-03-02T14:04:10-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>//www.icepicky.com/tags/review/</loc>
+    <lastmod>2018-10-25T19:28:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.icepicky.com/tags/</loc>
+    <lastmod>2018-10-25T19:28:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   

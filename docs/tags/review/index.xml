@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review on Jose Ibarra</title>
+    <link>//www.icepicky.com/tags/review/</link>
+    <description>Recent content in Review on Jose Ibarra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 25 Oct 2018 19:28:23 -0700</lastBuildDate>
+    
+	<atom:link href="//www.icepicky.com/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creep Review</title>
+      <link>//www.icepicky.com/blog/creep-review/</link>
+      <pubDate>Thu, 25 Oct 2018 19:28:23 -0700</pubDate>
+      
+      <guid>//www.icepicky.com/blog/creep-review/</guid>
+      <description>The Creep movie series is a frightening exploration of a realistic situation with a mentally unstable person.
+The realism of these movies is part of the reason they&amp;rsquo;re so scary. Instead of improbable situations or supernatural occurrences, everything is pretty much grounded in reality. The antagonist has mental health issues that drive him to be a serial killer and stalker. He acts just normal enough that you can believe his friendliness but he&amp;rsquo;s just weird enough to leave you unsettled.</description>
+    </item>
+    
+  </channel>
+</rss>
