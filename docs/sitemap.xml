@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.icepicky.com/blog/tier-lists/</loc>
+    <lastmod>2018-12-12T19:35:03-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.icepicky.com/blog/creep-review/</loc>
     <lastmod>2018-10-25T19:28:23-07:00</lastmod>
   </url>
@@ -59,7 +64,7 @@
   
   <url>
     <loc>//www.icepicky.com/</loc>
-    <lastmod>2018-10-25T19:28:23-07:00</lastmod>
+    <lastmod>2018-12-12T19:35:03-07:00</lastmod>
     <priority>0</priority>
   </url>
   
