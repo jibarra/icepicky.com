@@ -27,7 +27,7 @@ googleAnalytics = ""
   favicon = "favicon.ico"
 
   # Copyright
-  copyright = "2018 Jose Ibarra"
+  copyright = "2018-2020 Jose Ibarra"
 
   # Section - Content
   [params.content]
