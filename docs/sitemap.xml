@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.icepicky.com/blog/improving-my-communication/</loc>
+    <lastmod>2020-05-25T07:37:14-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.icepicky.com/blog/tier-lists/</loc>
     <lastmod>2018-12-12T19:35:03-07:00</lastmod>
   </url>
@@ -64,7 +69,7 @@
   
   <url>
     <loc>//www.icepicky.com/</loc>
-    <lastmod>2018-12-12T19:35:03-07:00</lastmod>
+    <lastmod>2020-05-25T07:37:14-06:00</lastmod>
     <priority>0</priority>
   </url>
   
