@@ -73,6 +73,12 @@
   </url>
   
   <url>
+    <loc>//www.icepicky.com/tags/games/</loc>
+    <lastmod>2021-03-07T10:07:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.icepicky.com/</loc>
     <lastmod>2021-03-07T10:07:32-07:00</lastmod>
     <priority>0</priority>
@@ -98,12 +104,6 @@
   
   <url>
     <loc>//www.icepicky.com/tags/</loc>
-    <lastmod>2018-10-25T19:28:23-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//www.icepicky.com/tags/video-games/</loc>
     <lastmod>2021-03-07T10:07:32-07:00</lastmod>
     <priority>0</priority>
   </url>
