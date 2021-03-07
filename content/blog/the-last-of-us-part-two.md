@@ -2,6 +2,9 @@
 title: "Review: The Last of Us Part Two"
 date: 2021-03-07T10:07:32-07:00
 draft: false
+tags:
+- review
+- video games
 ---
 
 Warning: There will be major spoilers in this review, particularly about the beginning and end of the game.
