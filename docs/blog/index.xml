@@ -8,6 +8,15 @@
     <language>en-US</language>
     <lastBuildDate>Thu, 25 Oct 2018 19:24:25 -0700</lastBuildDate><atom:link href="//www.icepicky.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Setting Up PPPoE Internet at Home</title>
+      <link>//www.icepicky.com/blog/setting-up-pppoe-at-home/</link>
+      <pubDate>Sun, 15 May 2022 11:42:42 -0600</pubDate>
+      
+      <guid>//www.icepicky.com/blog/setting-up-pppoe-at-home/</guid>
+      <description>Last year, we changed our internet service to a Gigabit line. The setup of Gigabit was pretty simple because our Internet Service Provider (CenturyLink) provided a free router. However, I wanted to use our router to ensure we had control over the hardware that performed our network and internet connections. In addition, the CenturyLink router underperformed our own router - the wifi range was too short to supply wifi to our entire home.</description>
+    </item>
+    
+    <item>
       <title>Yearly Theme 2022</title>
       <link>//www.icepicky.com/blog/yearly-theme-2022/</link>
       <pubDate>Sun, 23 Jan 2022 09:10:05 -0700</pubDate>
