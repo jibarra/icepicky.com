@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Jose Ibarra</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Projects on Jose Ibarra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Mar 2017 14:04:10 -0700</lastBuildDate>
-    
-	<atom:link href="//www.icepicky.com/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 02 Mar 2017 14:04:10 -0700</lastBuildDate><atom:link href="//www.icepicky.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AR Resource Finder</title>
       <link>//www.icepicky.com/projects/ar-resource-finder/</link>
@@ -48,7 +44,7 @@ The applciation utilizes Google&amp;rsquo;s Gmail API to find events in the futu
       
       <guid>//www.icepicky.com/projects/inspir3/</guid>
       <description>This website was created for INSPIR3 - Mental Wellness Center in the summer of 2016. The website is a basic static website that describes the vision and goals of INSPIR3 and promotes their capital campaign.
-The website utilizes the Foundation framework from ZURB for the design of the website. Node.js is the HTTP server for the website and the blogging platform used for the website. The HTTP server utilized Express.</description>
+The website utilizes the Foundation framework from ZURB for the design of the website. Node.js is the HTTP server for the website and the blogging platform used for the website. The HTTP server utilized Express.js and the Pug view engine to serve dynamic webpages.</description>
     </item>
     
     <item>

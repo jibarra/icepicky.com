@@ -4,7 +4,7 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.96.0" />
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -41,7 +41,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title="Jose Ibarra" />
+  <link href='' rel="alternate" type="application/rss+xml" title="Jose Ibarra" />
 </head>
 
   <body class="theme-base-split ">
@@ -78,14 +78,9 @@
    
   <hr>
   
-  
-
-<p>This application was created for the 2017 General Motors (GM) Arizona Hackathon. It integrated with existing GM services to locate resources (people, rooms, printers, bathrooms) in an augmented reality (AR) Android application.</p>
-
+  <p>This application was created for the 2017 General Motors (GM) Arizona Hackathon. It integrated with existing GM services to locate resources (people, rooms, printers, bathrooms) in an augmented reality (AR) Android application.</p>
 <p>The application utilizes a custom AR framework to display the resources on the screen. The application utilized multiple Android services like the location, compass, gyroscope, accelerometer &amp; camera to position AR objects on the screen. A resource&rsquo;s location was determined by comparing the user&rsquo;s current location, height &amp; compass position and the target resource&rsquo;s location &amp; height; the framework also weighted AR object size by distance from the user. On the backend, the application connected to a Node.js server to get general resource data like its positioning, availability, and status. Additionally, we developed a custom sensor with an Arduino to sense the availability of a bathroom stall and communicate the availability back to the server.</p>
-
 <p>For this application, I developed a majority of the Android mobile application code. I completed the following tasks:</p>
-
 <ul>
 <li>Activities to manage the Android layout.</li>
 <li>Autocomplete functionality for the search which queried a local database to populate results.</li>
@@ -95,26 +90,16 @@
 <li>The upper layer for the AR display also used a Canvas object from Android Graphics to draw custom graphics objects on the screen. The custom objects were simple geometric objects with resource photos (e.g. profile pictures) and text of resource statistics (distance, availability).</li>
 <li>An async task to listen to user movement events including gyroscope and accelerometer events. Upon receiving update events, the async task triggered the upper layer for the AR display to redraw.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="screenshots">Screenshots</h2>
-
 <h3 id="ar-resource-finder-app-main-page">AR Resource Finder App Main Page</h3>
-
-<p><img src="/static/img/ar-resource-finder/ar-finder-base-screenshot.jpg" alt="AR Resource Finder App Main Page" /></p>
-
+<p><img src="/static/img/ar-resource-finder/ar-finder-base-screenshot.jpg" alt="AR Resource Finder App Main Page"></p>
 <h3 id="ar-person-finder">AR Person Finder</h3>
-
-<p><img src="/static/img/ar-resource-finder/ar-finder-people-screenshot.jpg" alt="AR Person Finder" /></p>
-
+<p><img src="/static/img/ar-resource-finder/ar-finder-people-screenshot.jpg" alt="AR Person Finder"></p>
 <h3 id="ar-printer-finder">AR Printer Finder</h3>
-
-<p><img src="/static/img/ar-resource-finder/ar-finder-printer-screenshot.jpg" alt="AR Printer Finder" /></p>
-
+<p><img src="/static/img/ar-resource-finder/ar-finder-printer-screenshot.jpg" alt="AR Printer Finder"></p>
 <h3 id="ar-bathroom-finder">AR Bathroom Finder</h3>
-
-<p><img src="/static/img/ar-resource-finder/ar-finder-bathroom-screenshot.jpg" alt="AR Bathroom Finder" /></p>
+<p><img src="/static/img/ar-resource-finder/ar-finder-bathroom-screenshot.jpg" alt="AR Bathroom Finder"></p>
 
 </div>
 

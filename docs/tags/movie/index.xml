@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Movie on Jose Ibarra</title>
+    <title>movie on Jose Ibarra</title>
     <link>//www.icepicky.com/tags/movie/</link>
-    <description>Recent content in Movie on Jose Ibarra</description>
+    <description>Recent content in movie on Jose Ibarra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Oct 2018 19:28:23 -0700</lastBuildDate>
-    
-	<atom:link href="//www.icepicky.com/tags/movie/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 25 Oct 2018 19:28:23 -0700</lastBuildDate><atom:link href="//www.icepicky.com/tags/movie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creep Review</title>
       <link>//www.icepicky.com/blog/creep-review/</link>

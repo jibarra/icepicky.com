@@ -4,7 +4,7 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.96.0" />
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -41,7 +41,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title="Jose Ibarra" />
+  <link href='' rel="alternate" type="application/rss+xml" title="Jose Ibarra" />
 </head>
 
   <body class="theme-base-split ">
@@ -78,14 +78,9 @@
    
   <hr>
   
-  
-
-<p>This application was developed for my undergraduate honors thesis and was accepted and published at EuroVA 2014. The work was supported partially from an award from U.S. Department of Homeland Security’s VACCINE Center and a grant from the Engineering and Physical Sciences Research Council UK EPSRC. It received surname input from the user and output a population density map and income distribution for that surname.</p>
-
+  <p>This application was developed for my undergraduate honors thesis and was accepted and published at EuroVA 2014. The work was supported partially from an award from U.S. Department of Homeland Security’s VACCINE Center and a grant from the Engineering and Physical Sciences Research Council UK EPSRC. It received surname input from the user and output a population density map and income distribution for that surname.</p>
 <p>The application combined Java web services and MySQL on the backend and HTML, Javascript, <a href="https://d3js.org">d3.js</a>, <a href="http://jquery.com">jQuery</a>, and the <a href="https://developers.google.com/maps/web/">Google Maps API</a> on the frontend. The application also utilized Java to precompute surname population densities and income distribution. The precomputation for the surname data utilized a phonebook database to link surnames to latitudes and longitudes. Each surname within the database estimated the density utilizing a <a href="https://en.wikipedia.org/wiki/Kernel_density_estimation">kernel density estimation</a> function. With the surnames precomputed, when a user entered a surname, the web service simply looked up the precomputed data and returned it to the frontend. The frontend displayed the population density heatmap on top of a Google map of the United States and utilized <a href="https://d3js.org">D3.js</a> to display the income distribution and a similar names word cloud.</p>
-
 <p>I extended previous work that computed a population density heatmap based on a surname. My contributions and results from the project include:</p>
-
 <ul>
 <li>Rewrote the population density heatmap calculation to compute the kernel density estimation for a surname based on a regular distribution (plain distribution with no restrictions) and probabilistic distribution (lowering the probability based on the total population density of that area).</li>
 <li>Added calculations for income distribution based on the given surname utilizing <a href="https://www.census.gov/data/data-tools.html">United States Census data</a>. Later added additional options for the income distribution to utilize the <a href="https://www.zillow.com/howto/api/APIOverview.htm">Zillow API</a>.</li>
@@ -99,27 +94,16 @@
 <li>Successfully defended the research for my undergraduate honors thesis in Spring 2014.</li>
 <li>Published at <a href="http://www.eurova.org">EuroVA 2014</a>. You can <a href="https://doi.org/10.2312/eurova.20141143">read the paper here</a>.</li>
 </ul>
-
-<hr />
-
+<hr>
 <h2 id="screenshots">Screenshots</h2>
-
-<h3 id="ibarra-surname-density-regular-search">Ibarra Surname Density - Regular Search</h3>
-
-<p><img src="/static/img/surname-density/surname-density-base-screenshot.png" alt="Ibarra Surname Density - Regular Search" /></p>
-
-<h3 id="ibarra-surname-density-probabilistic-search">Ibarra Surname Density - Probabilistic Search</h3>
-
-<p><img src="/static/img/surname-density/ibarra-probabilistic-screenshot.jpg" alt="Ibarra Surname Density - Probabilistic Search" /></p>
-
-<h3 id="kimes-surname-density-regular-search">Kimes Surname Density - Regular Search</h3>
-
-<p><img src="/static/img/surname-density/kimes-regular-screenshot.jpg" alt="Kimes Surname Density - Regular Search" /></p>
-
-<hr />
-
+<h3 id="ibarra-surname-density---regular-search">Ibarra Surname Density - Regular Search</h3>
+<p><img src="/static/img/surname-density/surname-density-base-screenshot.png" alt="Ibarra Surname Density - Regular Search"></p>
+<h3 id="ibarra-surname-density---probabilistic-search">Ibarra Surname Density - Probabilistic Search</h3>
+<p><img src="/static/img/surname-density/ibarra-probabilistic-screenshot.jpg" alt="Ibarra Surname Density - Probabilistic Search"></p>
+<h3 id="kimes-surname-density---regular-search">Kimes Surname Density - Regular Search</h3>
+<p><img src="/static/img/surname-density/kimes-regular-screenshot.jpg" alt="Kimes Surname Density - Regular Search"></p>
+<hr>
 <h2 id="external-resources">External Resources</h2>
-
 <ul>
 <li><a href="https://doi.org/10.2312/eurova.20141143">Paper (Published at EUROGRPAHICS 2014)</a></li>
 <li><a href="https://demo.vaderlab.org/name/">Demo</a></li>

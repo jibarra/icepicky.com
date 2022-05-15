@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Games on Jose Ibarra</title>
+    <title>games on Jose Ibarra</title>
     <link>//www.icepicky.com/tags/games/</link>
-    <description>Recent content in Games on Jose Ibarra</description>
+    <description>Recent content in games on Jose Ibarra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 07 Mar 2021 10:07:32 -0700</lastBuildDate>
-    
-	<atom:link href="//www.icepicky.com/tags/games/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 07 Mar 2021 10:07:32 -0700</lastBuildDate><atom:link href="//www.icepicky.com/tags/games/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Review: The Last of Us Part Two</title>
       <link>//www.icepicky.com/blog/the-last-of-us-part-two/</link>
@@ -18,7 +14,7 @@
       
       <guid>//www.icepicky.com/blog/the-last-of-us-part-two/</guid>
       <description>Warning: There will be major spoilers in this review, particularly about the beginning and end of the game.
-I received The Last of Us Part 2 has a birthday present. I subsequently binge played the game in under 2 weeks, savoring every bit of it. The story of the game is very strong and it has good gameplay (mixed with some bad) to entertain in between the engrossing story bits.</description>
+ I received The Last of Us Part 2 has a birthday present. I subsequently binge played the game in under 2 weeks, savoring every bit of it. The story of the game is very strong and it has good gameplay (mixed with some bad) to entertain in between the engrossing story bits.</description>
     </item>
     
   </channel>

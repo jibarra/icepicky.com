@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jose Ibarra</title>
@@ -6,11 +6,7 @@
     <description>Recent content on Jose Ibarra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 23 Jan 2022 09:10:05 -0700</lastBuildDate>
-    
-	<atom:link href="//www.icepicky.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 23 Jan 2022 09:10:05 -0700</lastBuildDate><atom:link href="//www.icepicky.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yearly Theme 2022</title>
       <link>//www.icepicky.com/blog/yearly-theme-2022/</link>
@@ -38,7 +34,7 @@ I&amp;rsquo;ve decided my theme for 2022 is the year of foundation. I want to es
       
       <guid>//www.icepicky.com/blog/the-last-of-us-part-two/</guid>
       <description>Warning: There will be major spoilers in this review, particularly about the beginning and end of the game.
-I received The Last of Us Part 2 has a birthday present. I subsequently binge played the game in under 2 weeks, savoring every bit of it. The story of the game is very strong and it has good gameplay (mixed with some bad) to entertain in between the engrossing story bits.</description>
+ I received The Last of Us Part 2 has a birthday present. I subsequently binge played the game in under 2 weeks, savoring every bit of it. The story of the game is very strong and it has good gameplay (mixed with some bad) to entertain in between the engrossing story bits.</description>
     </item>
     
     <item>
@@ -58,7 +54,7 @@ I received The Last of Us Part 2 has a birthday present. I subsequently binge pl
       
       <guid>//www.icepicky.com/blog/tier-lists/</guid>
       <description>While at General Motors, I had a lot of opinionated discussions with friends. These conversations varied in topic and some of them involved ranking things in categories. After many of these discussions, I decided to create lists to rank the categories we discussed to compare with others. Unfortunately, I was the only one to create large and comrehensive tier lists.
-This is a compilation of the tier lists I&amp;rsquo;ve created.</description>
+This is a compilation of the tier lists I&amp;rsquo;ve created. I made 3 tier lists at GM (vegetables, fruits, desserts) and may add more tier lists in the future; I may also modify tier lists over time as I experience new items in a category or as my tastes change.</description>
     </item>
     
     <item>
@@ -78,7 +74,7 @@ The realism of these movies is part of the reason they&amp;rsquo;re so scary. In
       
       <guid>//www.icepicky.com/resume/</guid>
       <description>PDF version of this resume
-Qualifications  8 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience 1.5 years of data visualization research experience Developed a mainframe and Java application to manage part logistics, orders, and inventory for General Motors Developed mobile applications for Sandia National Labs Developed smaller applications in free time and hackathons, including augmented reality resource finder app, calendar and vehicle scheduling app, and autonomous vehicle scheduling app.</description>
+ Qualifications  8 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience 1.5 years of data visualization research experience Developed a mainframe and Java application to manage part logistics, orders, and inventory for General Motors Developed mobile applications for Sandia National Labs Developed smaller applications in free time and hackathons, including augmented reality resource finder app, calendar and vehicle scheduling app, and autonomous vehicle scheduling app.</description>
     </item>
     
     <item>
@@ -127,7 +123,7 @@ The applciation utilizes Google&amp;rsquo;s Gmail API to find events in the futu
       
       <guid>//www.icepicky.com/projects/inspir3/</guid>
       <description>This website was created for INSPIR3 - Mental Wellness Center in the summer of 2016. The website is a basic static website that describes the vision and goals of INSPIR3 and promotes their capital campaign.
-The website utilizes the Foundation framework from ZURB for the design of the website. Node.js is the HTTP server for the website and the blogging platform used for the website. The HTTP server utilized Express.</description>
+The website utilizes the Foundation framework from ZURB for the design of the website. Node.js is the HTTP server for the website and the blogging platform used for the website. The HTTP server utilized Express.js and the Pug view engine to serve dynamic webpages.</description>
     </item>
     
     <item>
