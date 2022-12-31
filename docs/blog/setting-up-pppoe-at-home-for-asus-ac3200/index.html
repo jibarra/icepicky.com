@@ -9,17 +9,17 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>review &middot; Jose Ibarra</title>
+  <title>Setting Up PPPoE at Home for Asus RT-AX88U &middot; Jose Ibarra</title>
 
   
   <meta name="author" content="Jose Ibarra" />
   <meta name="robots" content="index, follow" />
   <meta name="referrer" content="always" />
-  <meta name="description" content="Jose Ibarra - review" />
+  <meta name="description" content="Jose Ibarra - Setting Up PPPoE at Home for Asus RT-AX88U" />
     <meta property="og:description" content="Jose Ibarra is a staff software engineer at Gusto and MCS and BS Computer Science graduate from Arizona State University." />
 
   
-  <meta property="og:title" content="review" />
+  <meta property="og:title" content="Setting Up PPPoE at Home for Asus RT-AX88U" />
   <meta property="og:url" content="//www.icepicky.com/" />
   
   <meta property="og:image" content="//www.icepicky.com/static/img/jose.jpg" />
@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
 
   
-  <link href='/tags/review/index.xml' rel="alternate" type="application/rss+xml" title="Jose Ibarra" />
+  <link href='' rel="alternate" type="application/rss+xml" title="Jose Ibarra" />
 </head>
 
   <body class="theme-base-split ">
@@ -70,14 +70,28 @@
 </div>
 
     <div class="content container">
-    <h1>review</h1>
-<ul class="posts">
-<li>
-    <span><a href="//www.icepicky.com/blog/the-last-of-us-part-two/">Review: The Last of Us Part Two</a> <time class="pull-right post-list">Sun, Mar 7, 2021</time></span>
-  </li><li>
-    <span><a href="//www.icepicky.com/blog/creep-review/">Creep Review</a> <time class="pull-right post-list">Thu, Oct 25, 2018</time></span>
-  </li>
-</ul>
+    <div class="post">
+  <h1>Setting Up PPPoE at Home for Asus RT-AX88U</h1>
+  <span class="post-date">Sat, Dec 31, 2022</span>
+   
+  <hr>
+  
+  <p>Earlier this year, I got a new Asus RT-AX88U router for my home.
+We were having issues with the router randomly dropping internet connection and restarting itself.
+The range was also bad for our home.</p>
+<p>We had some issues setting up PPPoE on the new router because it wasn&rsquo;t obvious where to input the <a href="../setting-up-pppoe-at-home">VLAN ID that we used for our old Netgear AC1750 router.</a></p>
+<p>Luckily, I found this <a href="https://dougrathbone.com/blog/2018/03/31/configuring-a-thirdparty-asus-rtac3200-router-to-directly-connect-to-a-centurylink-gigabit-gpon-service">blog post about configuring an ASUS RT-N66U</a> that worked well for our RT-AX88U.</p>
+<p>The correct spot to input the VLAN ID was in the IPTV tab of the LAN settings.
+The table on that screen has an Internet row where you can input the VID, which I assume is an abbreviation for VLAN ID.
+I also selected the Manual Setting for ISP profile.</p>
+<p><img src="/static/img/setting-up-pppoe-at-home-for-asus-ac3200/vlan.jpg" alt="VLAN ID configuration screenshot"></p>
+<p>Setting the PPPoE credentials was pretty straightforward.
+I inputted this information in the WAN settings under the Internet Connection tab.
+The WAN connection type was PPPoE and I inputted the username and password further down the page.</p>
+
+</div>
+
+
     </div>
 
     
