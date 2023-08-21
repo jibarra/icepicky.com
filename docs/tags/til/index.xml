@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>til on Jose Ibarra</title>
+    <link>//www.icepicky.com/tags/til/</link>
+    <description>Recent content in til on Jose Ibarra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 21 Aug 2023 16:00:23 -0600</lastBuildDate><atom:link href="//www.icepicky.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL: MySQL Transaction Isolation Levels</title>
+      <link>//www.icepicky.com/blog/til-mysql-transaction-isolation-levels/</link>
+      <pubDate>Mon, 21 Aug 2023 16:00:23 -0600</pubDate>
+      
+      <guid>//www.icepicky.com/blog/til-mysql-transaction-isolation-levels/</guid>
+      <description>Today I learned about MySQL transaction isolation levels.
+I was trying to debug issues where concurrent processes didn&amp;rsquo;t seem to be locking rows in the database correctly. A simplified version of the offending code could look something like this (comments added for those unfamiliar with Rails):
+# Reader: Assume the record we&amp;#39;re processing is not processed # Query for the row with ID 123 for table some_active_record_classes some_active_record_class = SomeActiveRecordClass.where(id: 123).</description>
+    </item>
+    
+  </channel>
+</rss>
