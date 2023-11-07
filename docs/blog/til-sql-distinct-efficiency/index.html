@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>TIL: SQL DISTINCT Efficiency &middot; Jose Ibarra</title>
+
+  
+  <meta name="author" content="Jose Ibarra" />
+  <meta name="robots" content="index, follow" />
+  <meta name="referrer" content="always" />
+  <meta name="description" content="Jose Ibarra - TIL: SQL DISTINCT Efficiency" />
+    <meta property="og:description" content="Jose Ibarra is a staff software engineer at Gusto and MCS and BS Computer Science graduate from Arizona State University." />
+
+  
+  <meta property="og:title" content="TIL: SQL DISTINCT Efficiency" />
+  <meta property="og:url" content="//www.icepicky.com/" />
+  
+  <meta property="og:image" content="//www.icepicky.com/static/img/jose.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  
+  <meta name="twitter:site" content="@icepickpenguin" />
+
+  
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+
+  
+  <link rel="stylesheet" href="//www.icepicky.com/assets/css/print.css" media="print">
+  <link rel="stylesheet" href="//www.icepicky.com/assets/css/poole.css">
+  <link rel="stylesheet" href="//www.icepicky.com/assets/css/syntax.css">
+  <link rel="stylesheet" href="//www.icepicky.com/assets/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+  
+  <link href='' rel="alternate" type="application/rss+xml" title="Jose Ibarra" />
+</head>
+
+  <body class="theme-base-split ">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="//www.icepicky.com/"><h1>Jose Ibarra</h1></a>
+      <p class="lead">
+       I&#39;m a staff software engineer at Gusto and MCS and BS Computer Science graduate from Arizona State University. 
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="//www.icepicky.com/">Home</a> </li>
+      
+        
+          <li><a href="/resume/">Resume</a></li>
+        
+          <li><a href="/projects/">Projects</a></li>
+        
+          <li><a href="/blog/">Blog</a></li>
+        
+      
+    </ul>
+
+    <p>&copy;2018-2020 Jose Ibarra</p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>TIL: SQL DISTINCT Efficiency</h1>
+  <span class="post-date">Tue, Nov 7, 2023</span>
+   
+
+<span class="post-date">
+    Tags:
+     
+            <a href="//www.icepicky.com/tags/til/">til</a></span>
+  <hr>
+  
+  <p>Today I learned that <code>DISTINCT</code> statements can cause efficiency problems.</p>
+<p>I was looking at some code that made a few joins across tables and used distinct for the column names. The query was causing high CPU load and it wasn&rsquo;t immediately obvious from first glance why that was happening. You could imagine the query looked like this (with a few more joins and selects):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#66d9ef">DISTINCT</span> transactions.date, transactions.total_amount, transaction_items.amount, transaction_items.name
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> transactions
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">INNER</span> <span style="color:#66d9ef">JOIN</span> transaction_items <span style="color:#66d9ef">ON</span> transaction_items.transaction_id <span style="color:#f92672">=</span> transactions.id
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span> transactions.date <span style="color:#66d9ef">BETWEEN</span> <span style="color:#e6db74">&#39;2023-01-01&#39;</span> <span style="color:#66d9ef">AND</span> <span style="color:#e6db74">&#39;2023-12-31&#39;</span>;
+</span></span></code></pre></div><p>From a high level, in order to execute this statement the database will filter for the rows that we need, grab the data we need from those rows, and return the unique ones. That seems simple enough for a database as long as the <code>date</code> column is indexed. However, the important part to consider is what the database needs to do to ensure all the data returned is unique. The database would need to keep all that data in memory someplace and use CPU time to sort these columns then remove the duplicates. Without the inclusion of a unique index, the sort will take time because there&rsquo;s no guarantee that each column is unique.</p>
+<p>At first glance, the SQL statement seems harmless because everything looks like it will be obviously unique at baseline - we&rsquo;re joining against IDs so it must all be unique. However, the database likely won&rsquo;t figure that out and will fall back to doing the more computationally intensive thing of sorting and removing duplicates.</p>
+<p>The better thing for this particular query is to remove the <code>DISTINCT</code> altogether. This code may be buggy to begin with because there could be transactions on the same date with the same total amount, etc. Besides the bug, the <code>DISTINCT</code> is unnecessary because the results should be unique because we&rsquo;re joining on unique IDs.</p>
+<p>If the <code>DISTINCT</code> had to stay, it may be better to also select primary IDs so that the database could ensure that certain fields are guaranteed to be unique - that way it doesn&rsquo;t have to spend time sorting the results.</p>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>
