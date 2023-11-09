@@ -8,6 +8,16 @@
     <language>en-US</language>
     <lastBuildDate>Thu, 25 Oct 2018 19:24:25 -0700</lastBuildDate><atom:link href="//www.icepicky.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>TIL: Git Force With Lease</title>
+      <link>//www.icepicky.com/blog/til-git-force-with-lease/</link>
+      <pubDate>Wed, 08 Nov 2023 15:44:43 -0700</pubDate>
+      
+      <guid>//www.icepicky.com/blog/til-git-force-with-lease/</guid>
+      <description>Today I learned about the Git --force-with-lease command.
+I&amp;rsquo;ll restate a description of the command but it allows you to rebase and force push with less risks than using --force. If you had pushed your changes up to a remote branch and somebody else had pushed up new changes to that remote branch while you&amp;rsquo;re rebasing. After you finish rebasing, a normal git push will fail because the local refs don&amp;rsquo;t match the remote ones.</description>
+    </item>
+    
+    <item>
       <title>TIL: SQL DISTINCT Efficiency</title>
       <link>//www.icepicky.com/blog/til-sql-distinct-efficiency/</link>
       <pubDate>Tue, 07 Nov 2023 16:35:46 -0700</pubDate>
