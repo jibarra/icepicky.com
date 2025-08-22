@@ -7,10 +7,11 @@ theme = "split-hyde"
 # Added for publishing on Github Pages
 publishDir = "docs"
 
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
-
 [params]
+  # Enter your tracking code to enable Google Analytics
+  googleAnalytics = ""
+  # Disqus shortname for comments (empty to disable)
+  disqusShortname = ""
   # Theme color for Hyde pages
   themeColor = "theme-base-split"
 
