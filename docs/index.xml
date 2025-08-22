@@ -4,209 +4,156 @@
     <title>Jose Ibarra</title>
     <link>//www.icepicky.com/</link>
     <description>Recent content on Jose Ibarra</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 01 Feb 2025 07:40:41 -0700</lastBuildDate><atom:link href="//www.icepicky.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Aug 2025 18:14:55 -0600</lastBuildDate>
+    <atom:link href="//www.icepicky.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Metaphor for Refactors</title>
+      <link>//www.icepicky.com/blog/a-metaphor-for-refactors/</link>
+      <pubDate>Thu, 21 Aug 2025 18:14:55 -0600</pubDate>
+      <guid>//www.icepicky.com/blog/a-metaphor-for-refactors/</guid>
+      <description>&lt;p&gt;I wrote this piece as a part of a weekly project update email at Bonusly. I wanted to give non-technical folks an understanding of why changes can take a long time to implement and why we sometimes need to do refactors. I iterated on it a bit to come to the correct metaphor, starting at the metaphor that our system is a &amp;ldquo;tangled mess of spaghetti&amp;rdquo; and ending at this version.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reflecting on Gusto - The People</title>
       <link>//www.icepicky.com/blog/reflecting-on-gusto-the-people/</link>
       <pubDate>Sat, 01 Feb 2025 07:40:41 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/reflecting-on-gusto-the-people/</guid>
-      <description>Gusto hires really good people who are invested in seeing the company and coworkers succeed. The people kept me at Gusto for so long - everyone there was a pleasure to work with and everyone wanted you to be the best version of yourself.
-In particular, I grew a lot from my relationships with:
-Jeff was the most senior person on my first team at Gusto and I learned a ton from him.</description>
+      <description>&lt;p&gt;Gusto hires really good people who are invested in seeing the company and coworkers succeed. The people kept me at Gusto for so long - everyone there was a pleasure to work with and everyone wanted you to be the best version of yourself.&lt;/p&gt;&#xA;&lt;p&gt;In particular, I grew a lot from my relationships with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Jeff was the most senior person on my first team at Gusto and I learned a ton from him. I learned if you see a problem, fix it. And sometimes fixing may take a while so you&amp;rsquo;ll have to stick with it and follow through. He also taught me not to be afraid of making changes. You should be safe and validate changes but it&amp;rsquo;s also okay to break things if you quickly fix it.&lt;/li&gt;&#xA;&lt;li&gt;Adam was my first manager at Gusto. He taught me to be more vocal and opinionated. I used to stay quiet because I wanted to ensure my thoughts were right but he told me that I usually had the correct idea so I should speak up. This helped me learn that following my introverted tendency wasn&amp;rsquo;t always right.&lt;/li&gt;&#xA;&lt;li&gt;Casey was a peer on one of my teams at Gusto. I learned that being honest and growing close to your teammates helps build a lot of trust which is important for a strong team. We also worked on several projects together where Casey wasn&amp;rsquo;t doing &amp;ldquo;typical&amp;rdquo; technical work (like being our interim PM) but she was probably the most valuable person on the team. Engineers build solutions and products and that may not always involve having to code.&lt;/li&gt;&#xA;&lt;li&gt;Ernie was my last manager at Gusto. He taught me what a great manager looks like. I learned that managers can care for you as a person, drive you to succeed, and make sure that relates to the company&amp;rsquo;s goals. He taught me that I could improve myself as a person (bringing me more happiness) while also inadvertantly providing career growth. He also taught me to have compassion for myself and give myself the grace to not be perfect and fail sometimes. It&amp;rsquo;s easy to be hard on yourself with hindsight but it&amp;rsquo;s likely that you probably made the correct decision with the knowledge and skill you had at time.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I won&amp;rsquo;t describe everyone but the above list also includes Tori, Daniel, Ishmael, Sandy, Cody, Ryan, Paulina, Yannick, Angela, Kendra, Wenley, Matan, Peter, Roy, Brian, Dey, Kelly, Adrian and Ashish. I&amp;rsquo;m probably forgetting others too (the list is long) but nearly everyone at Gusto was fantastic.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TIL: Git Force With Lease</title>
       <link>//www.icepicky.com/blog/til-git-force-with-lease/</link>
       <pubDate>Wed, 08 Nov 2023 15:44:43 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/til-git-force-with-lease/</guid>
-      <description>Today I learned about the Git --force-with-lease command.
-I&amp;rsquo;ll restate a description of the command but it allows you to rebase and force push with less risks than using --force. If you had pushed your changes up to a remote branch and somebody else had pushed up new changes to that remote branch while you&amp;rsquo;re rebasing. After you finish rebasing, a normal git push will fail because the local refs don&amp;rsquo;t match the remote ones.</description>
+      <description>&lt;p&gt;Today I learned about &lt;a href=&#34;https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaseltrefnamegt&#34;&gt;the Git &lt;code&gt;--force-with-lease&lt;/code&gt; command&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll restate a description of the command but it allows you to rebase and force push with less risks than using &lt;code&gt;--force&lt;/code&gt;. If you had pushed your changes up to a remote branch and somebody else had pushed up new changes to that remote branch while you&amp;rsquo;re rebasing. After you finish rebasing, a normal &lt;code&gt;git push&lt;/code&gt; will fail because the local refs don&amp;rsquo;t match the remote ones. Usually people will &lt;code&gt;git push --force&lt;/code&gt; at this point because they were just rebasing their branch. However, this would wipe away commits on the remote branch. This is easy to do if you&amp;rsquo;re working on a branch and don&amp;rsquo;t realize that somebody else had commit to it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TIL: SQL DISTINCT Efficiency</title>
       <link>//www.icepicky.com/blog/til-sql-distinct-efficiency/</link>
       <pubDate>Tue, 07 Nov 2023 16:35:46 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/til-sql-distinct-efficiency/</guid>
-      <description>Today I learned that DISTINCT statements can cause efficiency problems.
-I was looking at some code that made a few joins across tables and used distinct for the column names. The query was causing high CPU load and it wasn&amp;rsquo;t immediately obvious from first glance why that was happening. You could imagine the query looked like this (with a few more joins and selects):
-SELECT DISTINCT transactions.date, transactions.total_amount, transaction_items.amount, transaction_items.name FROM transactions INNER JOIN transaction_items ON transaction_items.</description>
+      <description>&lt;p&gt;Today I learned that &lt;code&gt;DISTINCT&lt;/code&gt; statements can cause efficiency problems.&lt;/p&gt;&#xA;&lt;p&gt;I was looking at some code that made a few joins across tables and used distinct for the column names. The query was causing high CPU load and it wasn&amp;rsquo;t immediately obvious from first glance why that was happening. You could imagine the query looked like this (with a few more joins and selects):&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;DISTINCT&lt;/span&gt; transactions.date, transactions.total_amount, transaction_items.amount, transaction_items.name&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; transactions&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;INNER&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;JOIN&lt;/span&gt; transaction_items &lt;span style=&#34;color:#66d9ef&#34;&gt;ON&lt;/span&gt; transaction_items.transaction_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; transactions.id&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WHERE&lt;/span&gt; transactions.date &lt;span style=&#34;color:#66d9ef&#34;&gt;BETWEEN&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;2023-01-01&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;AND&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;2023-12-31&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;From a high level, in order to execute this statement the database will filter for the rows that we need, grab the data we need from those rows, and return the unique ones. That seems simple enough for a database as long as the &lt;code&gt;date&lt;/code&gt; column is indexed. However, the important part to consider is what the database needs to do to ensure all the data returned is unique. The database would need to keep all that data in memory someplace and use CPU time to sort these columns then remove the duplicates. Without the inclusion of a unique index, the sort will take time because there&amp;rsquo;s no guarantee that each column is unique.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TIL: MySQL Transaction Isolation Levels</title>
       <link>//www.icepicky.com/blog/til-mysql-transaction-isolation-levels/</link>
       <pubDate>Mon, 21 Aug 2023 16:00:23 -0600</pubDate>
-      
       <guid>//www.icepicky.com/blog/til-mysql-transaction-isolation-levels/</guid>
-      <description>Today I learned about MySQL transaction isolation levels.
-I was trying to debug issues where concurrent processes didn&amp;rsquo;t seem to be locking rows in the database correctly. A simplified version of the offending code could look something like this (comments added for those unfamiliar with Rails):
-# Reader: Assume the record we&amp;#39;re processing is not processed # Query for the row with ID 123 for table some_active_record_classes some_active_record_class = SomeActiveRecordClass.where(id: 123).</description>
+      <description>&lt;p&gt;Today I learned about MySQL transaction isolation levels.&lt;/p&gt;&#xA;&lt;p&gt;I was trying to debug issues where concurrent processes didn&amp;rsquo;t seem to be locking rows in the database correctly. A simplified version of the offending code could look something like this (comments added for those unfamiliar with Rails):&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Reader: Assume the record we&amp;#39;re processing is not processed&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Query for the row with ID 123 for table some_active_record_classes&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;some_active_record_class &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;SomeActiveRecordClass&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;where(id: &lt;span style=&#34;color:#ae81ff&#34;&gt;123&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;first&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ActiveRecord&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Base&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;transaction &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# Open a database transaction&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Query for associated data from another table processed_items&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  processed_items &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;ProcessedItem&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;where(&lt;span style=&#34;color:#e6db74&#34;&gt;foreign_key&lt;/span&gt;: some_active_record_class&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Lock the row with ID 123&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  some_active_record_class&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;lock!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Requery the database for ID 123 to ensure we have the most up to date data after locking&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  some_active_record_class&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;reload!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Early exit if the record is processed&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; some_active_record_class&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;processed &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Simulate long running logic by waiting for 5 seconds&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  sleep(&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Update the DB &lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  some_active_record_class&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;update!(&lt;span style=&#34;color:#e6db74&#34;&gt;processed&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;processed_count&lt;/span&gt;: processed_items&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;size)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# Release the lock, commit, and close the transaction&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When running that code concurrently, you&amp;rsquo;d expect that only one process would do the updates and the other process(es) would exit immediately after grabbing the lock. However, we were seeing that all processes would update the database. Originally we thought the problem was that we weren&amp;rsquo;t opening a lock at all or we weren&amp;rsquo;t opening the lock correctly. We were correct on one point of the hypothesis: we were opening a lock but the logic to open it was incorrect.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Setting Up PPPoE at Home for Asus RT-AX88U</title>
       <link>//www.icepicky.com/blog/setting-up-pppoe-at-home-for-asus-ac3200/</link>
       <pubDate>Sat, 31 Dec 2022 07:42:51 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/setting-up-pppoe-at-home-for-asus-ac3200/</guid>
-      <description>Earlier this year, I got a new Asus RT-AX88U router for my home. We were having issues with the router randomly dropping internet connection and restarting itself. The range was also bad for our home.
-We had some issues setting up PPPoE on the new router because it wasn&amp;rsquo;t obvious where to input the VLAN ID that we used for our old Netgear AC1750 router.
-Luckily, I found this blog post about configuring an ASUS RT-N66U that worked well for our RT-AX88U.</description>
+      <description>&lt;p&gt;Earlier this year, I got a new Asus RT-AX88U router for my home.&#xA;We were having issues with the router randomly dropping internet connection and restarting itself.&#xA;The range was also bad for our home.&lt;/p&gt;&#xA;&lt;p&gt;We had some issues setting up PPPoE on the new router because it wasn&amp;rsquo;t obvious where to input the &lt;a href=&#34;../setting-up-pppoe-at-home&#34;&gt;VLAN ID that we used for our old Netgear AC1750 router.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Luckily, I found this &lt;a href=&#34;https://dougrathbone.com/blog/2018/03/31/configuring-a-thirdparty-asus-rtac3200-router-to-directly-connect-to-a-centurylink-gigabit-gpon-service&#34;&gt;blog post about configuring an ASUS RT-N66U&lt;/a&gt; that worked well for our RT-AX88U.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Setting Up PPPoE Internet at Home</title>
       <link>//www.icepicky.com/blog/setting-up-pppoe-at-home/</link>
       <pubDate>Sun, 15 May 2022 11:42:42 -0600</pubDate>
-      
       <guid>//www.icepicky.com/blog/setting-up-pppoe-at-home/</guid>
-      <description>Last year, we changed our internet service to a Gigabit line. The setup of Gigabit was pretty simple because our Internet Service Provider (CenturyLink) provided a free router. However, I wanted to use our router to ensure we had control over the hardware that performed our network and internet connections. In addition, the CenturyLink router underperformed our own router - the wifi range was too short to supply wifi to our entire home.</description>
+      <description>&lt;p&gt;Last year, we changed our internet service to a Gigabit line. The setup of Gigabit was pretty simple because our Internet Service Provider (CenturyLink) provided a free router. However, I wanted to use &lt;em&gt;our&lt;/em&gt; router to ensure we had control over the hardware that performed our network and internet connections. In addition, the CenturyLink router underperformed our own router - the wifi range was too short to supply wifi to our entire home. So I did some investigating into how we could use our own router.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Yearly Theme 2022</title>
       <link>//www.icepicky.com/blog/yearly-theme-2022/</link>
       <pubDate>Sun, 23 Jan 2022 09:10:05 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/yearly-theme-2022/</guid>
-      <description>I was introduced to themes from this video.
-After reflecting on my theme from last year and how I&amp;rsquo;m feeling now, I realize that I mostly want to continue what I established last year. I want to build on the foundation that I lay and expand it to areas that I feel like I&amp;rsquo;m missing.
-I&amp;rsquo;ve decided my theme for 2022 is the year of foundation. I want to establish the foundation for who I am for the next few years.</description>
+      <description>&lt;p&gt;I was introduced to themes from &lt;a href=&#34;https://www.youtube.com/watch?v=NVGuFdX5guE&#34;&gt;this video.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../reflecting-on-2021-year-of-quality&#34;&gt;After reflecting on my theme from last year&lt;/a&gt; and how I&amp;rsquo;m feeling now, I realize that I mostly want to continue what I established last year. I want to build on the foundation that I lay and expand it to areas that I feel like I&amp;rsquo;m missing.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve decided my theme for 2022 is the year of foundation. I want to establish the foundation for who I am for the next few years.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Reflecting on 2021: Year of Quality</title>
       <link>//www.icepicky.com/blog/reflecting-on-2021-year-of-quality/</link>
       <pubDate>Sun, 02 Jan 2022 09:09:24 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/reflecting-on-2021-year-of-quality/</guid>
-      <description>My life at the start of 2021 2021 started as one of the most stressful periods of times for me as an adult. I typically keep my work life and personal life separated well but work stresses from the end of 2020 and beginning of 2021 affected my mood and seeped into my personal life. I was the lead for a project that was estimated to take 3 months and we needed to deliver in 2.</description>
+      <description>&lt;h1 id=&#34;my-life-at-the-start-of-2021&#34;&gt;My life at the start of 2021&lt;/h1&gt;&#xA;&lt;p&gt;2021 started as one of the most stressful periods of times for me as an adult. I typically keep my work life and personal life separated well but work stresses from the end of 2020 and beginning of 2021 affected my mood and seeped into my personal life. I was the lead for a project that was estimated to take 3 months and we needed to deliver in 2.5 months. To add, the project had an unmovable deadline due to hard-ish business constraints and hard government deadlines. There was immense pressure to deliver the project successfully and on time.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Review: The Last of Us Part Two</title>
       <link>//www.icepicky.com/blog/the-last-of-us-part-two/</link>
       <pubDate>Sun, 07 Mar 2021 10:07:32 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/the-last-of-us-part-two/</guid>
-      <description>Warning: There will be major spoilers in this review, particularly about the beginning and end of the game.
-I received The Last of Us Part 2 has a birthday present. I subsequently binge played the game in under 2 weeks, savoring every bit of it. The story of the game is very strong and it has good gameplay (mixed with some bad) to entertain in between the engrossing story bits.</description>
+      <description>&lt;p&gt;Warning: There will be major spoilers in this review, particularly about the beginning and end of the game.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I received The Last of Us Part 2 has a birthday present. I subsequently binge played the game in under 2 weeks, savoring every bit of it. The story of the game is very strong and it has good gameplay (mixed with some bad) to entertain in between the engrossing story bits.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Improving My Communication</title>
       <link>//www.icepicky.com/blog/improving-my-communication/</link>
       <pubDate>Mon, 25 May 2020 07:37:14 -0600</pubDate>
-      
       <guid>//www.icepicky.com/blog/improving-my-communication/</guid>
-      <description>Recently, I&amp;rsquo;ve been reading a lot to supplement my career development. I&amp;rsquo;ve slowly come to the realization that the greatest thing I can do to further my career is by improving my communication:
-My thoughts will be more clear and concise. This will help build my arguments and improve my persuasive capabilities. Discussions outside of engineering will be a lot easier. I&amp;rsquo;ll be able to relay my ideas to non-engineers a lot better.</description>
+      <description>&lt;p&gt;Recently, I&amp;rsquo;ve been reading a lot to supplement my career development. I&amp;rsquo;ve slowly come to the realization that the greatest thing I can do to further my career is by improving my communication:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;My thoughts will be more clear and concise. This will help build my arguments and improve my persuasive capabilities.&lt;/li&gt;&#xA;&lt;li&gt;Discussions outside of engineering will be a lot easier. I&amp;rsquo;ll be able to relay my ideas to non-engineers a lot better.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;ll increase my impact across my organization and company.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;All of those are important but to really level up as an engineer you have to expand your impact on the organization. Instead of being singularly focused (how can I push out features faster?), a senior engineer has a broader organizational focus (how can &lt;em&gt;we&lt;/em&gt; push out features faster?). Writing is one of the best ways to have impact. It has a multiplying factor that can touch a broad set of people. It gives people an opportunity to read and respond in their own time, at their own pace. This is especially true with COVID-19 and work from home mandates.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tier Lists</title>
       <link>//www.icepicky.com/blog/tier-lists/</link>
       <pubDate>Wed, 12 Dec 2018 19:35:03 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/tier-lists/</guid>
-      <description>While at General Motors, I had a lot of opinionated discussions with friends. These conversations varied in topic and some of them involved ranking things in categories. After many of these discussions, I decided to create lists to rank the categories we discussed to compare with others. Unfortunately, I was the only one to create large and comrehensive tier lists.
-This is a compilation of the tier lists I&amp;rsquo;ve created. I made 3 tier lists at GM (vegetables, fruits, desserts) and may add more tier lists in the future; I may also modify tier lists over time as I experience new items in a category or as my tastes change.</description>
+      <description>&lt;p&gt;While at General Motors, I had a lot of opinionated discussions with friends. These conversations varied in topic and some of them involved ranking things in categories. After many of these discussions, I decided to create lists to rank the categories we discussed to compare with others. Unfortunately, I was the only one to create large and comrehensive tier lists.&lt;/p&gt;&#xA;&lt;p&gt;This is a compilation of the tier lists I&amp;rsquo;ve created. I made 3 tier lists at GM (vegetables, fruits, desserts) and may add more tier lists in the future; I may also modify tier lists over time as I experience new items in a category or as my tastes change. I follow a scheme like fighting game tier lists: S &amp;gt; A &amp;gt; B &amp;gt; C &amp;gt; D. I also try to maintain ordering within a tier so the top item in the S tier is the best for the entire category. I&amp;rsquo;ll try to explain my reasoning for ratings and describe my criteria for rating each tier list. The criteria is an attempt to make my opinions at least partially objective. Tiers are definitely skewed by what I&amp;rsquo;ve been able to experience and have some natural inherent bias. In addition, I try to keep items general (like cake or pies) but if a specific item stands out of the general groupmfor positive or negative aspects, I&amp;rsquo;ll pull it out and rank it separately (like carrot cake).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Creep Review</title>
       <link>//www.icepicky.com/blog/creep-review/</link>
       <pubDate>Thu, 25 Oct 2018 19:28:23 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/creep-review/</guid>
-      <description>The Creep movie series is a frightening exploration of a realistic situation with a mentally unstable person.
-The realism of these movies is part of the reason they&amp;rsquo;re so scary. Instead of improbable situations or supernatural occurrences, everything is pretty much grounded in reality. The antagonist has mental health issues that drive him to be a serial killer and stalker. He acts just normal enough that you can believe his friendliness but he&amp;rsquo;s just weird enough to leave you unsettled.</description>
+      <description>&lt;p&gt;The Creep movie series is a frightening exploration of a realistic situation with a mentally unstable person.&lt;/p&gt;&#xA;&lt;p&gt;The realism of these movies is part of the reason they&amp;rsquo;re so scary. Instead of improbable situations or supernatural occurrences, everything is pretty much grounded in reality. The antagonist has mental health issues that drive him to be a serial killer and stalker. He acts just normal enough that you can believe his friendliness but he&amp;rsquo;s just weird enough to leave you unsettled. The antagonist&amp;rsquo;s weirdness is even explained in the first movie so his actions are all believable in the beginning. The protagonists give the serial killer multiple chances to explain himself but these chances don&amp;rsquo;t feel forced just to extend the movie. The endings of the movies just solidify the eeriness of the killer.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Resume</title>
       <link>//www.icepicky.com/resume/</link>
       <pubDate>Sun, 15 Apr 2018 14:58:26 -0700</pubDate>
-      
       <guid>//www.icepicky.com/resume/</guid>
-      <description>PDF version of this resume
-Qualifications 8 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience 1.5 years of data visualization research experience Developed a mainframe and Java application to manage part logistics, orders, and inventory for General Motors Developed mobile applications for Sandia National Labs Developed smaller applications in free time and hackathons, including augmented reality resource finder app, calendar and vehicle scheduling app, and autonomous vehicle scheduling app.</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//www.icepicky.com/static/pdf/Jose%20Ibarra%20Resume.pdf&#34;&gt;PDF version of this resume&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;qualifications&#34;&gt;Qualifications&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;8 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience&lt;/li&gt;&#xA;&lt;li&gt;1.5 years of data visualization research experience&lt;/li&gt;&#xA;&lt;li&gt;Developed a mainframe and Java application to manage part logistics, orders, and inventory for General Motors&lt;/li&gt;&#xA;&lt;li&gt;Developed mobile applications for Sandia National Labs&lt;/li&gt;&#xA;&lt;li&gt;Developed smaller applications in free time and hackathons, including augmented reality resource finder app, calendar and vehicle scheduling app, and autonomous vehicle scheduling app.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;project--development-experience&#34;&gt;Project &amp;amp; Development Experience&lt;/h1&gt;&#xA;&lt;h2 id=&#34;house-repository-for-every-part-hrep--general-motors-internal-project&#34;&gt;House Repository for Every Part (HREP) – General Motors: Internal Project&lt;/h2&gt;&#xA;&lt;p&gt;General Motors: &lt;em&gt;Internal Project, May 2017 - Present&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>This is my first post</title>
       <link>//www.icepicky.com/blog/test/</link>
       <pubDate>Sat, 03 Feb 2018 16:04:28 -0700</pubDate>
-      
       <guid>//www.icepicky.com/blog/test/</guid>
-      <description>Nothing much to see here</description>
+      <description>&lt;p&gt;Nothing much to see here&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AR Resource Finder</title>
       <link>//www.icepicky.com/projects/ar-resource-finder/</link>
       <pubDate>Thu, 02 Mar 2017 14:04:10 -0700</pubDate>
-      
       <guid>//www.icepicky.com/projects/ar-resource-finder/</guid>
-      <description>This application was created for the 2017 General Motors (GM) Arizona Hackathon. It integrated with existing GM services to locate resources (people, rooms, printers, bathrooms) in an augmented reality (AR) Android application.
-The application utilizes a custom AR framework to display the resources on the screen. The application utilized multiple Android services like the location, compass, gyroscope, accelerometer &amp;amp; camera to position AR objects on the screen. A resource&amp;rsquo;s location was determined by comparing the user&amp;rsquo;s current location, height &amp;amp; compass position and the target resource&amp;rsquo;s location &amp;amp; height; the framework also weighted AR object size by distance from the user.</description>
+      <description>&lt;p&gt;This application was created for the 2017 General Motors (GM) Arizona Hackathon. It integrated with existing GM services to locate resources (people, rooms, printers, bathrooms) in an augmented reality (AR) Android application.&lt;/p&gt;&#xA;&lt;p&gt;The application utilizes a custom AR framework to display the resources on the screen. The application utilized multiple Android services like the location, compass, gyroscope, accelerometer &amp;amp; camera to position AR objects on the screen. A resource&amp;rsquo;s location was determined by comparing the user&amp;rsquo;s current location, height &amp;amp; compass position and the target resource&amp;rsquo;s location &amp;amp; height; the framework also weighted AR object size by distance from the user. On the backend, the application connected to a Node.js server to get general resource data like its positioning, availability, and status. Additionally, we developed a custom sensor with an Arduino to sense the availability of a bathroom stall and communicate the availability back to the server.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Legato - Autonomous Vehicle Manager</title>
       <link>//www.icepicky.com/projects/legato/</link>
       <pubDate>Fri, 25 Nov 2016 13:18:54 -0700</pubDate>
-      
       <guid>//www.icepicky.com/projects/legato/</guid>
-      <description>This application was created for the 2016 General Motors National Hackathon Championships. It integrates the user&amp;rsquo;s life with autonomous vehicle services.
-The application utilizes calendars provided by the user to schedule events for your autonomous car to use. The application can automatically suggest events by querying the OnStar API for things like oil levels. Calendar events and destinations display on the Android app so the user is aware of their car&amp;rsquo;s location.</description>
+      <description>&lt;p&gt;This application was created for the 2016 General Motors National Hackathon Championships. It integrates the user&amp;rsquo;s life with autonomous vehicle services.&lt;/p&gt;&#xA;&lt;p&gt;The application utilizes calendars provided by the user to schedule events for your autonomous car to use. The application can automatically suggest events by querying the OnStar API for things like oil levels. Calendar events and destinations display on the Android app so the user is aware of their car&amp;rsquo;s location. In addition, the application supports notifications for car pickup/dropoff events and Lyft money earning events. The backend is a Node.js server and the front end is an Android application.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Travalet - OnStar Integrated Car Scheduler</title>
       <link>//www.icepicky.com/projects/travalet/</link>
       <pubDate>Tue, 13 Sep 2016 13:47:38 -0700</pubDate>
-      
       <guid>//www.icepicky.com/projects/travalet/</guid>
-      <description>This application was created for the 2016 General Motors Arizona Hackathon. It integrates the user&amp;rsquo;s email events with existing OnStar services.
-The applciation utilizes Google&amp;rsquo;s Gmail API to find events in the future and automatically schedule oil changes, tire pressure stops and gas station stops. The application utilized different stop and end times for events, such as waking up the user, starting the car and the car leaving for the final destination.</description>
+      <description>&lt;p&gt;This application was created for the 2016 General Motors Arizona Hackathon. It integrates the user&amp;rsquo;s email events with existing OnStar services.&lt;/p&gt;&#xA;&lt;p&gt;The applciation utilizes Google&amp;rsquo;s Gmail API to find events in the future and automatically schedule oil changes, tire pressure stops and gas station stops. The application utilized different stop and end times for events, such as waking up the user, starting the car and the car leaving for the final destination. The application also automatically sends mapping data to the car before events and sets alarms to wake up the user. The backend is a Java server and the front end is an Android application.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>INSPIR3.com - Development &amp; Design</title>
       <link>//www.icepicky.com/projects/inspir3/</link>
       <pubDate>Sun, 28 Aug 2016 13:47:27 -0700</pubDate>
-      
       <guid>//www.icepicky.com/projects/inspir3/</guid>
-      <description>This website was created for INSPIR3 - Mental Wellness Center in the summer of 2016. The website is a basic static website that describes the vision and goals of INSPIR3 and promotes their capital campaign.
-The website utilizes the Foundation framework from ZURB for the design of the website. Node.js is the HTTP server for the website and the blogging platform used for the website. The HTTP server utilized Express.js and the Pug view engine to serve dynamic webpages.</description>
+      <description>&lt;p&gt;This website was created for &lt;a href=&#34;https://www.inspir3.com&#34;&gt;INSPIR3 - Mental Wellness Center&lt;/a&gt; in the summer of 2016. The website is a basic static website that describes the vision and goals of INSPIR3 and promotes their capital campaign.&lt;/p&gt;&#xA;&lt;p&gt;The website utilizes the &lt;a href=&#34;https://foundation.zurb.com&#34;&gt;Foundation framework from ZURB&lt;/a&gt; for the design of the website. &lt;a href=&#34;https://nodejs.org/en/&#34;&gt;Node.js&lt;/a&gt; is the HTTP server for the website and the blogging platform used for the website. The HTTP server utilized Express.js and the Pug view engine to serve dynamic webpages. Pug allowed easy changes for duplicated content such as the navbar and footer.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Surname Search - Surname Population Density &amp; Income Distribution</title>
       <link>//www.icepicky.com/projects/surname-search/</link>
       <pubDate>Fri, 18 Apr 2014 13:47:54 -0700</pubDate>
-      
       <guid>//www.icepicky.com/projects/surname-search/</guid>
-      <description>This application was developed for my undergraduate honors thesis and was accepted and published at EuroVA 2014. The work was supported partially from an award from U.S. Department of Homeland Security’s VACCINE Center and a grant from the Engineering and Physical Sciences Research Council UK EPSRC. It received surname input from the user and output a population density map and income distribution for that surname.
-The application combined Java web services and MySQL on the backend and HTML, Javascript, d3.</description>
+      <description>&lt;p&gt;This application was developed for my undergraduate honors thesis and was accepted and published at EuroVA 2014. The work was supported partially from an award from U.S. Department of Homeland Security’s VACCINE Center and a grant from the Engineering and Physical Sciences Research Council UK EPSRC. It received surname input from the user and output a population density map and income distribution for that surname.&lt;/p&gt;&#xA;&lt;p&gt;The application combined Java web services and MySQL on the backend and HTML, Javascript, &lt;a href=&#34;https://d3js.org&#34;&gt;d3.js&lt;/a&gt;, &lt;a href=&#34;http://jquery.com&#34;&gt;jQuery&lt;/a&gt;, and the &lt;a href=&#34;https://developers.google.com/maps/web/&#34;&gt;Google Maps API&lt;/a&gt; on the frontend. The application also utilized Java to precompute surname population densities and income distribution. The precomputation for the surname data utilized a phonebook database to link surnames to latitudes and longitudes. Each surname within the database estimated the density utilizing a &lt;a href=&#34;https://en.wikipedia.org/wiki/Kernel_density_estimation&#34;&gt;kernel density estimation&lt;/a&gt; function. With the surnames precomputed, when a user entered a surname, the web service simply looked up the precomputed data and returned it to the frontend. The frontend displayed the population density heatmap on top of a Google map of the United States and utilized &lt;a href=&#34;https://d3js.org&#34;&gt;D3.js&lt;/a&gt; to display the income distribution and a similar names word cloud.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Linked Animal-Human Health Visual Analytics (LAHVA) Expansion</title>
       <link>//www.icepicky.com/projects/lahva/</link>
       <pubDate>Fri, 26 Apr 2013 13:48:06 -0700</pubDate>
-      
       <guid>//www.icepicky.com/projects/lahva/</guid>
-      <description>This application was developed for the Spring 2013 Fulton Undergraduate Research Initiative (FURI). The application allowed users to load a health and weather data set to display graphically on a map. The map displayed the counties for a country and changed the color of a county based on the number of health incidents. The user could change the the health condition (such as gastrointestinal problems) or the weather condition (such as temperature).</description>
+      <description>&lt;p&gt;This application was developed for the Spring 2013 &lt;a href=&#34;https://furi.engineering.asu.edu&#34;&gt;Fulton Undergraduate Research Initiative (FURI)&lt;/a&gt;. The application allowed users to load a health and weather data set to display graphically on a map. The map displayed the counties for a country and changed the color of a county based on the number of health incidents. The user could change the the health condition (such as gastrointestinal problems) or the weather condition (such as temperature). Once the data fields were selected, the data was displayed on the map and the user could hover over a county to display a graph correlating the selected health condition to the selected weather condition.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
