@@ -11,7 +11,7 @@ pageSummary: "Jose Ibarra's resume covering previous project & development exper
 [PDF version of this resume](/static/pdf/Jose%20Ibarra%20Resume.pdf)
 
 ---
-# Qualifications
+## Qualifications
 
 * 8 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience
 * 1.5 years of data visualization research experience
@@ -20,9 +20,9 @@ pageSummary: "Jose Ibarra's resume covering previous project & development exper
 * Developed smaller applications in free time and hackathons, including augmented reality resource finder app, calendar and vehicle scheduling app, and autonomous vehicle scheduling app.
 
 ---
-# Project & Development Experience
+## Project & Development Experience
 
-## House Repository for Every Part (HREP) – General Motors: Internal Project
+### House Repository for Every Part (HREP) – General Motors: Internal Project
 
 General Motors: *Internal Project, May 2017 - Present*
 
@@ -31,7 +31,7 @@ framework.
 * Created and maintained CI/CD system which greatly reduced deployment and defect detection times; combined Gradle, Jenkins, CA Release Automation, Junit, and Selenium.
 * Designed Selenium framework to improve test creation for Kendo Grid pages which reduced test creation time from several days to just one day.
 
-## Material Global Optimization (MGO)
+### Material Global Optimization (MGO)
 
 General Motors: *Internal Project, June 2015 - Present*
 
@@ -49,7 +49,7 @@ improve plant worker productivity through a simple UI.
 * Trained 20 new hires in Java and SpringMVC skill to onboard them quickly for a Struts 1 to
 SpringMVC conversion project.
 
-## Geo-Genealogy and Geo-Demographics Data Visualization Research
+### Geo-Genealogy and Geo-Demographics Data Visualization Research
 
 VADER Research Lab: *https://doi.org/10.2312/eurova.20141143, https://demo.vaderlab.org/name/, August 2013 - May 2014*
 
@@ -58,7 +58,7 @@ VADER Research Lab: *https://doi.org/10.2312/eurova.20141143, https://demo.vader
 * Preprocessed surname maps and income distributions that reduced server processing and improved response times from several minutes to several seconds.
 * Developed multi-threaded data preprocessing methods which processed surname data independently and improved processing capability by factor of 5.
 
-## SNL Conference Room Scheduler
+### SNL Conference Room Scheduler
 
 Sandia National Labs: *Internal Project, May 2013 - May 2014*
 
@@ -68,24 +68,24 @@ reduced conference room scheduling time by 10-20%; integrated ArcGIS, Objective-
 * Designed user interface using Apple’s UI Framework and the ArcGIS framework.
 
 ---
-# Publications
+## Publications
 
-## What’s In a Name? Data Linkage, Demography and Visual Analytics
+### What's In a Name? Data Linkage, Demography and Visual Analytics
 
 * EuroVis Workshop on Visual Analytics 2014: *Wang F., Ibarra J., Adnan M., Longley P., Maciejewski R.*
 * https://doi.org/10.2312/eurova.20141143
 * https://demo.vaderlab.org/name/
 
 ---
-# Education
+## Education
 
-## Computer Science, M.C.S.
+### Computer Science, M.C.S.
 
 Arizona State University, Tempe, AZ. *January 2015 - August 2018*
 
 * *Overall GPA:* 3.70
 
-## Computer Science, B.S. Honors Diploma
+### Computer Science, B.S. Honors Diploma
 
 Arizona State University, Tempe, AZ. *August 2010 - May 2014*
 
@@ -93,9 +93,9 @@ Arizona State University, Tempe, AZ. *August 2010 - May 2014*
 * *Honors Thesis:* Visual Analytic Tools for Geo-Genealogy and Geo-Demographics
 
 ---
-# Work Experience
+## Work Experience
 
-## Software Developer
+### Software Developer
 
 General Motors: Chandler, AZ. *June 2014 - Present*
 
@@ -105,20 +105,20 @@ General Motors: Chandler, AZ. *June 2014 - Present*
 * Participated and won multiple hackathons for General Motors employees. Applications included an autonomous vehicle scheduling app (Node.js & Android), an augmented reality resource finder app (Node.js & Android), and a car scheduling app synced with user calendars (Java & Android).
 • Managed development team meetings to keep up to date with architecture changes and new technologies, including new development tools (Upsource, Jenkins) and new development frameworks (Angular.js).
 
-## Undergraduate Technical Intern
+### Undergraduate Technical Intern
 
 Sandia National Labs: Albuquerque, NM. *May 2013 - June 2014*
 
 * Developed the SNL Conference Room Scheduler project.
 
-## Undergraduate Research Assistant
+### Undergraduate Research Assistant
 
 Arizona State University: Tempe, AZ. *Jan. 2013 - May 2014*
 
 * Researched and developed the Geo-Genealogy and Geo-Demographics Research project.
 
 ---
-# Skills & Strengths
+## Skills & Strengths
 
 * Programming Languages - Java, Javascript, Python, PL/I, COBOL
 * Frameworks & Libraries - jQuery, Spring MVC, Android
