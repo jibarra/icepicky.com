@@ -4,7 +4,9 @@ This is a site created using Hugo.
 
 # Running local server
 
-`hugo server`
+`hugo server --renderToMemory`
+
+- `--renderToMemory` will render to memory instead of building, so localhost related stuff won't get written to disk.
 
 # Generating content
 
