@@ -2,7 +2,7 @@
 title: "Resume"
 date: 2018-04-15T14:58:26-07:00
 draft: false
-pageSummary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
+summary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
 ---
 
 ---
