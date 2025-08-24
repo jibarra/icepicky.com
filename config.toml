@@ -2,8 +2,6 @@
 baseURL = "//www.icepicky.com/"
 languageCode = "en-US"
 title = "Jose Ibarra"
-# This is a custom theme combining Split (homepage) and Hyde (every other page) themes
-# theme = "split-hyde"
 theme = "hugo-theme-console"
 # Added for publishing on Github Pages
 publishDir = "docs"
