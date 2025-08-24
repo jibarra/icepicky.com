@@ -3,93 +3,32 @@ baseURL = "//www.icepicky.com/"
 languageCode = "en-US"
 title = "Jose Ibarra"
 # This is a custom theme combining Split (homepage) and Hyde (every other page) themes
-theme = "split-hyde"
+# theme = "split-hyde"
+theme = "hugo-theme-console"
 # Added for publishing on Github Pages
 publishDir = "docs"
 
+[[params.navLinks]]
+  name = "resume/"
+  url = "resume/"
+
+[[params.navLinks]]
+  name = "projects/"
+  url = "projects/"
+
+[[params.navLinks]]
+  name = "blog/"
+  url = "blog/"
+
 [params]
-  # Enter your tracking code to enable Google Analytics
-  googleAnalytics = ""
-  # Disqus shortname for comments (empty to disable)
-  disqusShortname = ""
-  # Theme color for Hyde pages
-  themeColor = "theme-base-split"
-
-  # Sidebar description for the Hyde pages
-  sidebarBio = "I'm a staff software engineer at Gusto and MCS and BS Computer Science graduate from Arizona State University."
-
   # Metadata for search engines and social sharing
   name = "Jose Ibarra"
   description = "Jose Ibarra is a staff software engineer at Gusto and MCS and BS Computer Science graduate from Arizona State University."
   shareImage = "static/img/jose.jpg"
-  twitterHandle = "icepickpenguin"
+  # twitterHandle = "icepickpenguin"
 
   # Favicon
   favicon = "favicon.ico"
 
   # Copyright
-  copyright = "2018-2020 Jose Ibarra"
-
-  # Section - Content
-  [params.content]
-    name = "Software Developer"
-    tagline = "Jose Ibarra"
-    bio = "I'm a staff software engineer at Gusto and MCS and BS Computer Science graduate from Arizona State University. Please check out my [resume](/resume/) and the [projects I've created](/projects). I cover my development interests and different hobbies on my [blog](/blog)."
-
-  # Section - Visual
-  [params.visual]
-
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "static/img/jose.jpg"
-      position = "center center"
-
-  # Sidebar information for Hyde Pages
-  [[params.sidebar.links]]
-    [params.sidebar.links.1]
-      text = "Resume"
-      url = "/resume/"
-    [params.sidebar.links.2]
-      text = "Projects"
-      url = "/projects/"
-    [params.sidebar.links.3]
-      text = "Blog"
-      url = "/blog/"
-
-  # Links
-  #
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "Personal"
-
-      [[params.links.list1.link]]
-        text = "Resume"
-        url = "/resume/"
-
-      [[params.links.list1.link]]
-        text = "Projects"
-        url = "/projects/"
-
-  # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = "Connect"
-
-      [[params.links.list2.link]]
-        text = "Blog"
-        url = "/blog/"
-
-      [[params.links.list2.link]]
-        text = "Email"
-        url = "mailto:jose@icepicky.com"
-
-      [[params.links.list2.link]]
-        text = "Github"
-        url = "https://github.com/jibarra"
-
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
-  # If you'd like to use the template without the attribution, you can check out
-  # the license option via the template author's website: https://onepagelove.com/split
+  copyright = "2018-2025 Jose Ibarra"
