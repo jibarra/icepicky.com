@@ -2,6 +2,7 @@
 title: "Reflecting on Gusto - The People"
 date: 2025-02-01T07:40:41-07:00
 draft: false
+summary: "My thoughts on working at Gusto focused on the thing that is the best about working there: the people. I learned a lot from every one there and really appreciated the support and guidance they provided. Every one of them was a pleasure to work with and everyone wanted you to be the best version of yourself."
 ---
 
 Gusto hires really good people who are invested in seeing the company and coworkers succeed. The people kept me at Gusto for so long - everyone there was a pleasure to work with and everyone wanted you to be the best version of yourself.
