@@ -2,7 +2,7 @@
 title: "Linked Animal-Human Health Visual Analytics (LAHVA) Expansion"
 date: 2013-04-26T13:48:06-07:00
 draft: false
-pageSummary: "An overview of the LAHVA research project that expanded the existing visual analytics tool that enabled users to investigate health incidents and correlate them to weather conditions."
+summary: "An overview of the LAHVA research project that expanded the existing visual analytics tool that enabled users to investigate health incidents and correlate them to weather conditions."
 ---
 
 This application was developed for the Spring 2013 [Fulton Undergraduate Research Initiative (FURI)](https://furi.engineering.asu.edu). The application allowed users to load a health and weather data set to display graphically on a map. The map displayed the counties for a country and changed the color of a county based on the number of health incidents. The user could change the the health condition (such as gastrointestinal problems) or the weather condition (such as temperature). Once the data fields were selected, the data was displayed on the map and the user could hover over a county to display a graph correlating the selected health condition to the selected weather condition.

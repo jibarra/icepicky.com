@@ -2,7 +2,7 @@
 title: "INSPIR3.com - Development & Design"
 date: 2016-08-28T13:47:27-07:00
 draft: false
-pageSummary: "An overview of the development of INSPIR3.com."
+summary: "An overview of the development of INSPIR3.com."
 ---
 
 This website was created for [INSPIR3 - Mental Wellness Center](https://www.inspir3.com) in the summer of 2016. The website is a basic static website that describes the vision and goals of INSPIR3 and promotes their capital campaign.

@@ -2,7 +2,7 @@
 title: "Legato - Autonomous Vehicle Manager"
 date: 2016-11-25T13:18:54-07:00
 draft: false
-pageSummary: "An overview of the autonomous vehicle manager Android app that allowed autonomous car owners to track their car movements and schedule car activities in real time. Developed for the 2016 General Motors National Hackathon Championships."
+summary: "An overview of the autonomous vehicle manager Android app that allowed autonomous car owners to track their car movements and schedule car activities in real time. Developed for the 2016 General Motors National Hackathon Championships."
 ---
 
 This application was created for the 2016 General Motors National Hackathon Championships. It integrates the user's life with autonomous vehicle services.

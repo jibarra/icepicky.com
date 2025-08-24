@@ -2,7 +2,7 @@
 title: "Surname Search - Surname Population Density & Income Distribution"
 date: 2014-04-18T13:47:54-07:00
 draft: false
-pageSummary: "An overview of the research project that enabled users to search by surname and find the population density and income distribution for that surname."
+summary: "An overview of the research project that enabled users to search by surname and find the population density and income distribution for that surname."
 ---
 
 This application was developed for my undergraduate honors thesis and was accepted and published at EuroVA 2014. The work was supported partially from an award from U.S. Department of Homeland Security’s VACCINE Center and a grant from the Engineering and Physical Sciences Research Council UK EPSRC. It received surname input from the user and output a population density map and income distribution for that surname.
