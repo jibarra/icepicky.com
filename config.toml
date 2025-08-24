@@ -21,7 +21,7 @@ publishDir = "docs"
 [params]
   # Metadata for search engines and social sharing
   name = "Jose Ibarra"
-  description = "Jose Ibarra is a staff software engineer at Gusto and MCS and BS Computer Science graduate from Arizona State University."
+  description = "Jose Ibarra is a staff software engineer at Bonusly and MCS and BS Computer Science graduate from Arizona State University. He previously worked at Gusto."
   shareImage = "static/img/jose.jpg"
   # twitterHandle = "icepickpenguin"
 
