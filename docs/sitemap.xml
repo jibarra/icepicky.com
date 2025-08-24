@@ -1,94 +1,214 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>//www.icepicky.com/blog/a-metaphor-for-refactors/</loc>
-    <lastmod>2025-08-21T18:14:55-06:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/</loc>
-    <lastmod>2025-08-21T18:14:55-06:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/reflecting-on-gusto-the-people/</loc>
-    <lastmod>2025-02-01T07:40:41-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/tags/</loc>
-    <lastmod>2023-11-08T15:44:43-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/tags/til/</loc>
-    <lastmod>2023-11-08T15:44:43-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/til-git-force-with-lease/</loc>
-    <lastmod>2023-11-08T15:44:43-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/til-sql-distinct-efficiency/</loc>
-    <lastmod>2023-11-07T16:35:46-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/til-mysql-transaction-isolation-levels/</loc>
-    <lastmod>2023-08-21T16:00:23-06:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/setting-up-pppoe-at-home-for-asus-ac3200/</loc>
-    <lastmod>2022-12-31T07:42:51-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/setting-up-pppoe-at-home/</loc>
-    <lastmod>2022-05-15T11:42:42-06:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/yearly-theme-2022/</loc>
-    <lastmod>2022-01-23T09:10:05-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/reflecting-on-2021-year-of-quality/</loc>
-    <lastmod>2022-01-02T09:09:24-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/tags/games/</loc>
-    <lastmod>2021-03-07T10:07:32-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/tags/review/</loc>
-    <lastmod>2021-03-07T10:07:32-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/the-last-of-us-part-two/</loc>
-    <lastmod>2021-03-07T10:07:32-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/improving-my-communication/</loc>
-    <lastmod>2020-05-25T07:37:14-06:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/tier-lists/</loc>
-    <lastmod>2018-12-12T19:35:03-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/creep-review/</loc>
-    <lastmod>2018-10-25T19:28:23-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/tags/movie/</loc>
-    <lastmod>2018-10-25T19:28:23-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/</loc>
-    <lastmod>2018-10-25T19:24:25-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/resume/</loc>
-    <lastmod>2018-04-15T14:58:26-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/blog/test/</loc>
-    <lastmod>2018-02-03T16:04:28-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/projects/ar-resource-finder/</loc>
-    <lastmod>2017-03-02T14:04:10-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/projects/</loc>
-    <lastmod>2017-03-02T14:04:10-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/projects/legato/</loc>
-    <lastmod>2016-11-25T13:18:54-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/projects/travalet/</loc>
-    <lastmod>2016-09-13T13:47:38-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/projects/inspir3/</loc>
-    <lastmod>2016-08-28T13:47:27-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/projects/surname-search/</loc>
-    <lastmod>2014-04-18T13:47:54-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/projects/lahva/</loc>
-    <lastmod>2013-04-26T13:48:06-07:00</lastmod>
-  </url><url>
-    <loc>//www.icepicky.com/categories/</loc>
-  </url>
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/a-metaphor-for-refactors/</loc>
+            <lastmod>2025-08-21T18:14:55-06:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/</loc>
+            <lastmod>2025-08-21T18:14:55-06:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/reflecting-on-gusto-the-people/</loc>
+            <lastmod>2025-02-01T07:40:41-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/tags/</loc>
+            <lastmod>2023-11-08T15:44:43-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/tags/til/</loc>
+            <lastmod>2023-11-08T15:44:43-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/til-git-force-with-lease/</loc>
+            <lastmod>2023-11-08T15:44:43-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/til-sql-distinct-efficiency/</loc>
+            <lastmod>2023-11-07T16:35:46-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/til-mysql-transaction-isolation-levels/</loc>
+            <lastmod>2023-08-21T16:00:23-06:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/setting-up-pppoe-at-home-for-asus-ac3200/</loc>
+            <lastmod>2022-12-31T07:42:51-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/setting-up-pppoe-at-home/</loc>
+            <lastmod>2022-05-15T11:42:42-06:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/yearly-theme-2022/</loc>
+            <lastmod>2022-01-23T09:10:05-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/reflecting-on-2021-year-of-quality/</loc>
+            <lastmod>2022-01-02T09:09:24-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/tags/games/</loc>
+            <lastmod>2021-03-07T10:07:32-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/tags/review/</loc>
+            <lastmod>2021-03-07T10:07:32-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/the-last-of-us-part-two/</loc>
+            <lastmod>2021-03-07T10:07:32-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/improving-my-communication/</loc>
+            <lastmod>2020-05-25T07:37:14-06:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/tier-lists/</loc>
+            <lastmod>2018-12-12T19:35:03-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/creep-review/</loc>
+            <lastmod>2018-10-25T19:28:23-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/tags/movie/</loc>
+            <lastmod>2018-10-25T19:28:23-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/</loc>
+            <lastmod>2018-10-25T19:24:25-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/resume/</loc>
+            <lastmod>2018-04-15T14:58:26-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/blog/test/</loc>
+            <lastmod>2018-02-03T16:04:28-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/projects/ar-resource-finder/</loc>
+            <lastmod>2017-03-02T14:04:10-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/projects/</loc>
+            <lastmod>2017-03-02T14:04:10-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/projects/legato/</loc>
+            <lastmod>2016-11-25T13:18:54-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/projects/travalet/</loc>
+            <lastmod>2016-09-13T13:47:38-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/projects/inspir3/</loc>
+            <lastmod>2016-08-28T13:47:27-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/projects/surname-search/</loc>
+            <lastmod>2014-04-18T13:47:54-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/projects/lahva/</loc>
+            <lastmod>2013-04-26T13:48:06-07:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>//www.icepicky.com/categories/</loc>
+        </url>
+        
+    
 </urlset>
