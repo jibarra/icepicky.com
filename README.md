@@ -21,3 +21,5 @@ You can also minify the output via `hugo build --minify`.
 - Add github links to someplace (maybe the footer)
 - Explore other configuration options for the new website theme: https://github.com/mrmierzejewski/hugo-theme-console
 - See if we want another base color scheme (purple).
+- See if we can remove the ` around inline code tags.
+- Fix gaps at the end of block code elements.
