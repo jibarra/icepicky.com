@@ -149,15 +149,17 @@ code {
   background-color: var(--code-bg-color);
   font-family: var(--mono-font-stack);
 }
-code::after,
+/* Don't display ` for inline code. */
+/* code::after,
 code::before {
   content: "`";
   display: inline;
-}
-pre code::after,
+} */
+/* This doesn't seem useful */
+/*pre code::after,
 pre code::before {
   content: "";
-}
+}*/
 pre {
   display: block;
   word-break: break-all;
@@ -171,7 +173,8 @@ pre {
   white-space: -o-pre-wrap;
 }
 pre code {
-  overflow-x: scroll;
+  /* This seems to add an extra space at the end of multi-line code blocks */
+  /*overflow-x: scroll;*/
   padding: 0;
   margin: 0;
   display: inline-block;
