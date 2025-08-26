@@ -249,19 +249,21 @@ figure {
   padding-top: 0;
 }
 
-@media only screen and (max-width: 850px) {
-  .site-name {
-    width: 2ch;
-    overflow: hidden;
-    display: inline-block;
-  }
-
+@media only screen and (max-width: 600px) {
   .terminal-path {
     display: inline-block;
     max-width: 6ch;
     overflow: hidden;
     text-overflow: "";
     vertical-align: bottom;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .site-name {
+    width: 2ch;
+    overflow: hidden;
+    display: inline-block;
   }
 
   .terminal-nav {
