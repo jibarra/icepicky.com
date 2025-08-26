@@ -31,7 +31,7 @@ ActiveRecord::Base.transaction do # Open a database transaction
   # Simulate long running logic by waiting for 5 seconds
   sleep(5)
 
-  # Update the DB 
+  # Update the DB
   some_active_record_class.update!(processed: true, processed_count: processed_items.size)
 end # Release the lock, commit, and close the transaction
 ```
