@@ -7,9 +7,9 @@ INNER JOIN transaction_items ON transaction_items.transaction_id = transactions.
 WHERE transactions.date BETWEEN '2023-01-01' AND '2023-12-31';
 From a high level, in order to execute this statement the database will filter for the rows that we need, grab the data we need from those rows, and return the unique ones. That seems simple enough for a database as long as the date column is indexed. However, the important part to consider is what the database needs to do to ensure all the data returned is unique. The database would need to keep all that data in memory someplace and use CPU time to sort these columns then remove the duplicates. Without the inclusion of a unique index, the sort will take time because there&rsquo;s no guarantee that each column is unique."></head><body class=terminal><div class=container><div class=terminal-nav><header class=terminal-logo><div class="logo terminal-prompt"><a href=//www.icepicky.com/ class=no-style>Jose Ibarra
 </a>:~#
-<a href=//www.icepicky.com/blog>blog</a>
+<a href=//www.icepicky.com/blog class=terminal-path>blog</a>
 /
-<a href=//www.icepicky.com/blog/til-sql-distinct-efficiency>til-sql-distinct-efficiency</a>
+<a href=//www.icepicky.com/blog/til-sql-distinct-efficiency class=terminal-path>til-sql-distinct-efficiency</a>
 /</div></header><nav class=terminal-menu><ul vocab="https://schema.org/" typeof="BreadcrumbList"><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/resume/><span property="name">resume/</span></a>
 <meta property="position" content="1"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/projects/><span property="name">projects/</span></a>
 <meta property="position" content="2"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/blog/><span property="name">blog/</span></a>

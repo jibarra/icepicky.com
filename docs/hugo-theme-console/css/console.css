@@ -256,6 +256,14 @@ figure {
     display: inline-block;
   }
 
+  .terminal-path {
+    display: inline-block;
+    max-width: 6ch;
+    overflow: hidden;
+    text-overflow: "";
+    vertical-align: bottom;
+  }
+
   .terminal-nav {
     align-items: flex-start;
     flex-direction: column;

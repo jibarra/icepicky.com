@@ -26,9 +26,9 @@ ActiveRecord::Base.transaction do # Open a database transaction
 end # Release the lock, commit, and close the transaction
 When running that code concurrently, you&rsquo;d expect that only one process would do the updates and the other process(es) would exit immediately after grabbing the lock. However, we were seeing that all processes would update the database. Originally we thought the problem was that we weren&rsquo;t opening a lock at all or we weren&rsquo;t opening the lock correctly. We were correct on one point of the hypothesis: we were opening a lock but the logic to open it was incorrect."></head><body class=terminal><div class=container><div class=terminal-nav><header class=terminal-logo><div class="logo terminal-prompt"><a href=//www.icepicky.com/ class=no-style>Jose Ibarra
 </a>:~#
-<a href=//www.icepicky.com/blog>blog</a>
+<a href=//www.icepicky.com/blog class=terminal-path>blog</a>
 /
-<a href=//www.icepicky.com/blog/til-mysql-transaction-isolation-levels>til-mysql-transaction-isolation-levels</a>
+<a href=//www.icepicky.com/blog/til-mysql-transaction-isolation-levels class=terminal-path>til-mysql-transaction-isolation-levels</a>
 /</div></header><nav class=terminal-menu><ul vocab="https://schema.org/" typeof="BreadcrumbList"><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/resume/><span property="name">resume/</span></a>
 <meta property="position" content="1"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/projects/><span property="name">projects/</span></a>
 <meta property="position" content="2"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/blog/><span property="name">blog/</span></a>
