@@ -6,7 +6,7 @@ tags:
 - til
 ---
 
-Today I learned about [the Git `--force-with-lease` command](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaseltrefnamegt).
+Today I learned about [the Git `--force-with-lease` command.](https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaseltrefnamegt)
 
 I'll restate a description of the command but it allows you to rebase and force push with less risks than using `--force`. If you had pushed your changes up to a remote branch and somebody else had pushed up new changes to that remote branch while you're rebasing. After you finish rebasing, a normal `git push` will fail because the local refs don't match the remote ones. Usually people will `git push --force` at this point because they were just rebasing their branch. However, this would wipe away commits on the remote branch. This is easy to do if you're working on a branch and don't realize that somebody else had commit to it.
 
