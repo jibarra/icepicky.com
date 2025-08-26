@@ -5,75 +5,52 @@ draft: false
 summary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
 ---
 
----
+This page is a representation of my current resume and work history of the past ten years. I've been a professional software engineer for over ten years, working on a variety of projects and technologies.
 
-[PDF version of this resume](/static/pdf/Jose%20Ibarra%20Resume.pdf)
+As an intern and undergraduate student, I worked at Sandia National Labs and Arizona State University. As a professional software engineer, I've worked at General Motors, Gusto, and Bonusly.
+
+[You can also view a PDF version of this resume.](/static/pdf/Jose%20Ibarra%20Resume.pdf)
 
 ---
 ## Qualifications
 
-* 8 years of Java experience; 3 years of Javascript experience; 2 years of C++ experience
-* 1.5 years of data visualization research experience
-* Developed a mainframe and Java application to manage part logistics, orders, and inventory for General Motors
-* Developed mobile applications for Sandia National Labs
-* Developed smaller applications in free time and hackathons, including augmented reality resource finder app, calendar and vehicle scheduling app, and autonomous vehicle scheduling app.
+* Developed Ruby on Rails services and systems to support Bonusly's recognition and rewards applications.
+* Developed Ruby on Rails services and systems to support Gusto's core payroll products.
+* 7 years of Ruby experience; 8 years of Java experience; 5 years of Javascript experience.
 
 ---
-## Project & Development Experience
+## Work Experience
 
-### House Repository for Every Part (HREP) – General Motors: Internal Project
+### Bonusly
 
-General Motors: *Internal Project, May 2017 - Present*
+Staff Software Engineer: *Apr. 2024 - Present*
 
-* Rewrite of existing Access application in the Spring MVC framework and a custom jQuery
-framework.
-* Created and maintained CI/CD system which greatly reduced deployment and defect detection times; combined Gradle, Jenkins, CA Release Automation, Junit, and Selenium.
-* Designed Selenium framework to improve test creation for Kendo Grid pages which reduced test creation time from several days to just one day.
+* Reworked the rewards system to enable physical rewards in the Bonusly rewards catalog. Introduction of physical rewards was estimated to double Bonusly rewards revenue.
+* Tech lead of a team that introduced group giving that had significant adoption: ~40% of customers adopted with sustained usage.
+* Tech lead of a team to fill product gaps to enable launch of a new subscription tier (Achieve) to sell to customers and unlock a new, expanded customer base.
+* Introduced developer exerience improvements to the codebase: standardized Rubocop configurations, an automated dependecy upgrade process, extensive examples of best practices, and small quality improvements across the codebase.
+* Mentored engineers to help grow their careers. Guided engineers through their first experience as tech lead and continued to support them in their journey as a lead. Accelerated engineers' output by guiding them to improve their workflow. Taught engineers principles like prioritizing simple design.
 
-### Material Global Optimization (MGO)
+### Gusto
 
-General Motors: *Internal Project, June 2015 - Present*
+Staff Software Engineer: *Jan. 2022 - Apr. 2024*
 
-* Monolithic, 24/7 supply chain system that manages the planning, ordering, and scheduling for
-parts and shipping in manufacturing plants, managing billions of dollars of supply.
-* Developed backend modules to do a majority of business logic; used frontend (JSP, JS, jQuery),
-backend (Java), mainframe technologies (PL/I and COBOL).
-* Improved mainframe unit testing framework utilizing Junit which shifted unit testing from mostly
-manual to mostly automated, significantly reducing retest time.
-* Led proof of concept for upgrading Struts 1 to Struts 2 and improved existing estimates by 35%.
-* Technical leader for a Struts 1 to SpringMVC conversion project.
-* Improved existing and created new Struts 1 conversion tools to lower file conversion time by 20%.
-* Developed a proof of concept mobile application utilizing Angular.js which was expected to
-improve plant worker productivity through a simple UI.
-* Trained 20 new hires in Java and SpringMVC skill to onboard them quickly for a Struts 1 to
-SpringMVC conversion project.
+* Tech lead of a project exploring approaches to extract a major payroll service from the existing monolith to enable a new revenue stream.
+* Designed and developed an API to allow external teams to more easily build new payroll flows. Unblocked multiple teams to build a new mobile app flow, a new spreadsheet flow, and modernization of the existing payroll flow.
+* Drafted and socialized a tech strategy to guide the Payroll Services org through technical changes in fiscal year 2024.
+* Mentor for engineers across the organization, from junior to senior levels. Helped folks grow their careers, spread knowledge about our complex system, and discussed solutions to system changes.
 
-### Geo-Genealogy and Geo-Demographics Data Visualization Research
 
-VADER Research Lab: *https://doi.org/10.2312/eurova.20141143, https://demo.vaderlab.org/name/, August 2013 - May 2014*
+### Gusto
 
-* Application displayed a heatmap of surname density for the United States and the income distribution for that surname in a web application utilizing JS, jQuery, D3.js and Java web services.
-* Mined over 60 million data records from US phonebooks and correlated to zip code-based US Census records; stored data and mining results in MySQL and MongoDB.
-* Preprocessed surname maps and income distributions that reduced server processing and improved response times from several minutes to several seconds.
-* Developed multi-threaded data preprocessing methods which processed surname data independently and improved processing capability by factor of 5.
+Senior Software Engineer: *Nov. 2018 - Dec. 2021*
 
-### SNL Conference Room Scheduler
-
-Sandia National Labs: *Internal Project, May 2013 - May 2014*
-
-* Modernized webpage based scheduling application by designing a map-based, visual iOS app that
-reduced conference room scheduling time by 10-20%; integrated ArcGIS, Objective-C, Java.
-* ConstructedJavawebservicestoquerySQLserversforneededdata.
-* Designed user interface using Apple’s UI Framework and the ArcGIS framework.
-
----
-## Publications
-
-### What's In a Name? Data Linkage, Demography and Visual Analytics
-
-* EuroVis Workshop on Visual Analytics 2014: *Wang F., Ibarra J., Adnan M., Longley P., Maciejewski R.*
-* https://doi.org/10.2312/eurova.20141143
-* https://demo.vaderlab.org/name/
+* Tech lead of a team that introduced improvements to the run payroll frontend including displaying payroll input totals, revamping payroll error display, and revamping the display of payroll calendars. Drove down preventable errors in the run payroll flow by 99%, removed unactionable errors for 4.4% customers, and increased user throughput through the critical flow.
+* Led an effort to improve our on-call workload through process and coding improvements for a group of 30 engineers.
+* Tech lead on a project to refactor the federal and state 1099 system to support filing new 1099-NEC specification for 300,000+ filings for the 2020 tax year.
+* Built out system to provide over \$1 billion of COVID tax credits to over 10% of employers for relief due to COVID.
+* Tech lead to reduce production console access for team by establishing processes and building new operational tools. Reduced all console access by 87% and write-enabled console access by 83% for the team.
+* Delivered over a hundred interviews while Gusto was scaling up the engineering team. Served on the hiring excellence committee to improve interviewing standards, developing new interview questions and rubrics to consistently evaluate candidates.
 
 ---
 ## Education
@@ -90,38 +67,6 @@ Arizona State University, Tempe, AZ. *August 2010 - May 2014*
 
 * *Overall GPA:* 3.78, *CS GPA:* 4.00, Magna Cum Laude
 * *Honors Thesis:* Visual Analytic Tools for Geo-Genealogy and Geo-Demographics
-
----
-## Work Experience
-
-### Software Developer
-
-General Motors: Chandler, AZ. *June 2014 - Present*
-
-* Developed the Material Global Optimization and House Repository for Every Part projects.
-* Continually rated exceeds expectations in yearly performance reviews.
-* Trained in Java and mainframe technologies to be able to develop for the full application stack.
-* Participated and won multiple hackathons for General Motors employees. Applications included an autonomous vehicle scheduling app (Node.js & Android), an augmented reality resource finder app (Node.js & Android), and a car scheduling app synced with user calendars (Java & Android).
-• Managed development team meetings to keep up to date with architecture changes and new technologies, including new development tools (Upsource, Jenkins) and new development frameworks (Angular.js).
-
-### Undergraduate Technical Intern
-
-Sandia National Labs: Albuquerque, NM. *May 2013 - June 2014*
-
-* Developed the SNL Conference Room Scheduler project.
-
-### Undergraduate Research Assistant
-
-Arizona State University: Tempe, AZ. *Jan. 2013 - May 2014*
-
-* Researched and developed the Geo-Genealogy and Geo-Demographics Research project.
-
----
-## Skills & Strengths
-
-* Programming Languages - Java, Javascript, Python, PL/I, COBOL
-* Frameworks & Libraries - jQuery, Spring MVC, Android
-* Programs and Tools - IntelliJ, Gradle, Vim, Git, Junit, Selenium, Jenkins
 
 ---
 
