@@ -22,4 +22,4 @@ Currently, I use a fork of [hugo-theme-console.](https://github.com/jibarra/hugo
 
 # TODO
 
-- Add github links to someplace (maybe the footer)
+- Nothing!
