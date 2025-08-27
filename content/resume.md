@@ -5,7 +5,7 @@ draft: false
 summary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
 ---
 
-This page is a representation of my current resume and work history of the past ten years. I've been a professional software engineer for over ten years, working on a variety of projects and technologies.
+This page is my resume of my last ten years of experience. I've been a professional software engineer for over ten years, working on a variety of projects and technologies.
 
 As an intern and undergraduate student, I worked at Sandia National Labs and Arizona State University. As a professional software engineer, I've worked at General Motors, Gusto, and Bonusly.
 
@@ -14,7 +14,7 @@ As an intern and undergraduate student, I worked at Sandia National Labs and Ari
 ---
 ## Qualifications
 
-* Developed Ruby on Rails services and systems to support Bonusly's recognition and rewards applications.
+* Developed Ruby on Rails applications for Bonusly's recognition and rewards applications.
 * Developed Ruby on Rails services and systems to support Gusto's core payroll products.
 * 7 years of Ruby experience; 8 years of Java experience; 5 years of Javascript experience.
 
@@ -26,7 +26,7 @@ As an intern and undergraduate student, I worked at Sandia National Labs and Ari
 Staff Software Engineer: *Apr. 2024 - Present*
 
 * Reworked the rewards system to enable physical rewards in the Bonusly rewards catalog. Introduction of physical rewards was estimated to double Bonusly rewards revenue.
-* Tech lead of a team that introduced group giving that had significant adoption: ~40% of customers adopted with sustained usage.
+* Tech lead of a team that introduced group giving to recognition that resulted in ~40% of customers adopting the feature with sustained usage.
 * Tech lead of a team to fill product gaps to enable launch of a new subscription tier (Achieve) to sell to customers and unlock a new, expanded customer base.
 * Introduced developer exerience improvements to the codebase: standardized Rubocop configurations, an automated dependecy upgrade process, extensive examples of best practices, and small quality improvements across the codebase.
 * Mentored engineers to help grow their careers. Guided engineers through their first experience as tech lead and continued to support them in their journey as a lead. Accelerated engineers' output by guiding them to improve their workflow. Taught engineers principles like prioritizing simple design.
