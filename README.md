@@ -20,6 +20,10 @@ You can also minify the output via `hugo build --minify`.
 
 Currently, I use a fork of [hugo-theme-console.](https://github.com/jibarra/hugo-theme-console) I've made changes to the theme to fix bugs and support my personal needs.
 
+Other themes that I've found nice:
+
+- [Minima theme from Jekyll]([url](https://github.com/jekyll/minima)) - may be nice to port to Hugo.
+
 # TODO
 
 - Nothing!
