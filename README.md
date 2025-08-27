@@ -22,7 +22,7 @@ Currently, I use a fork of [hugo-theme-console.](https://github.com/jibarra/hugo
 
 Other themes that I've found nice:
 
-- [Minima theme from Jekyll]([url](https://github.com/jekyll/minima)) - may be nice to port to Hugo.
+- [Minima theme from Jekyll](https://github.com/jekyll/minima) - may be nice to port to Hugo.
 
 # TODO
 
