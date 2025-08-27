@@ -252,7 +252,7 @@ figure {
 @media only screen and (max-width: 600px) {
   .terminal-path {
     display: inline-block;
-    max-width: 6ch;
+    max-width: 8ch;
     overflow: hidden;
     text-overflow: "";
     vertical-align: bottom;
