@@ -5,9 +5,7 @@ draft: false
 summary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
 ---
 
-This is my resume - only the past ten years of experience is listed here. I've been a professional software engineer for over ten years, working on a variety of projects and technologies.
-
-As an intern and undergraduate student, I worked at Sandia National Labs and Arizona State University. As a professional software engineer, I've worked at General Motors, Gusto, and Bonusly.
+I've been a professional software engineer for over ten years, working on a variety of projects and technologies. As an intern and undergraduate student, I worked at Sandia National Labs and Arizona State University. As a professional software engineer, I've worked at General Motors, Gusto, and Bonusly.
 
 [You can also view a PDF version of this resume.](/static/pdf/Jose%20Ibarra%20Resume.pdf)
 
