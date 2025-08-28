@@ -26,4 +26,5 @@ Other themes that I've found nice:
 
 # TODO
 
-- Nothing!
+- Add created at & updated at to blog pages.
+- Add tags to blog pages.
