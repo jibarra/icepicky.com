@@ -24,9 +24,9 @@ I've been a professional software engineer for over ten years, working on a vari
 Staff Software Engineer: *Apr. 2024 - Present*
 
 * Reworked the rewards system to enable physical rewards in the Bonusly rewards catalog. Introduction of physical rewards was estimated to double Bonusly rewards revenue.
-* Tech lead of a team that introduced group giving to recognition that resulted in ~40% of customers adopting the feature with sustained usage.
+* Tech lead of a team that introduced group giving to recognition that resulted in 40% of customers adopting the feature with sustained usage.
 * Tech lead of a team to fill product gaps to enable launch of a new subscription tier (Achieve) to sell to customers and unlock a new, expanded customer base.
-* Introduced developer exerience improvements to the codebase: standardized Rubocop configurations, an automated dependecy upgrade process, extensive examples of best practices, and small quality improvements across the codebase.
+* Introduced developer exerience improvements to the codebase: standardized Rubocop configurations, added an automated dependecy upgrade process, shared extensive examples of best practices, and implemented small quality improvements across the codebase.
 * Mentored engineers to help grow their careers. Guided engineers through their first experience as tech lead and continued to support them in their journey as a lead. Accelerated engineers' output by guiding them to improve their workflow. Taught engineers principles like prioritizing simple design.
 
 ### Gusto
@@ -46,7 +46,7 @@ Senior Software Engineer: *Nov. 2018 - Dec. 2021*
 * Tech lead of a team that introduced improvements to the run payroll frontend including displaying payroll input totals, revamping payroll error display, and revamping the display of payroll calendars. Drove down preventable errors in the run payroll flow by 99%, removed unactionable errors for 4.4% customers, and increased user throughput through the critical flow.
 * Led an effort to improve our on-call workload through process and coding improvements for a group of 30 engineers.
 * Tech lead on a project to refactor the federal and state 1099 system to support filing new 1099-NEC specification for 300,000+ filings for the 2020 tax year.
-* Built out system to provide over \$1 billion of COVID tax credits to over 10% of employers for relief due to COVID.
+* Built out system to provide over $1 billion of COVID tax credits to over 10% of employers for relief due to COVID.
 * Tech lead to reduce production console access for team by establishing processes and building new operational tools. Reduced all console access by 87% and write-enabled console access by 83% for the team.
 * Delivered over a hundred interviews while Gusto was scaling up the engineering team. Served on the hiring excellence committee to improve interviewing standards, developing new interview questions and rubrics to consistently evaluate candidates.
 
