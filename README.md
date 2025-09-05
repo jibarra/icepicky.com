@@ -28,3 +28,4 @@ Other themes that I've found nice:
 
 - Add created at & updated at to blog pages.
 - Add tags to blog pages.
+- Fix CORS request failing for Cloudflare analytics: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSDidNotSucceed
