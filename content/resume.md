@@ -12,6 +12,7 @@ I've been a professional software engineer for over ten years, working on a vari
 ---
 ## Qualifications
 
+* Over ten years of software engineering experience at General Motors, Gusto, and Bonusly.
 * Developed Ruby on Rails applications for Bonusly's recognition and rewards applications.
 * Developed Ruby on Rails services and systems to support Gusto's core payroll products.
 * 7 years of Ruby experience; 8 years of Java experience; 5 years of Javascript experience.
