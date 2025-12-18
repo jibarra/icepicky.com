@@ -4,8 +4,6 @@ date: 2022-01-02T09:09:24-07:00
 draft: false
 ---
 
-# My life at the start of 2021
-
 2021 started as one of the most stressful periods of times for me as an adult. I typically keep my work life and personal life separated well but work stresses from the end of 2020 and beginning of 2021 affected my mood and seeped into my personal life. I was the lead for a project that was estimated to take 3 months and we needed to deliver in 2.5 months. To add, the project had an unmovable deadline due to hard-ish business constraints and hard government deadlines. There was immense pressure to deliver the project successfully and on time.
 
 The team was also very driven to accomplish our goals. Internally, members of the team pushed to significantly improve the system and build our confidence in delivery. While this was great for delivering the project, it added scope to our already constrained project.
