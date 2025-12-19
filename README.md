@@ -2,19 +2,13 @@
 
 This is a site created using Hugo.
 
-# Running local server
+# Scripts
 
-`hugo server --renderToMemory`
+Scripts for common actions are contained in the `scripts` directory.
 
-- `--renderToMemory` will render to memory instead of building, so localhost related stuff won't get written to disk.
-
-# Generating content
-
-To create new content run `hugo new <content_name>.<content_extension>`. The new content will be created in `content/`. You can also specify a path to get the content in a particular directory (e.g. `hugo new blog/test.md`).
-
-To publish content, run `hugo build` from the root directory of this project.
-
-You can also minify the output via `hugo build --minify`.
+- `scripts/local.sh`: Runs a local version of Hugo to verify changes locally.
+- `scripts/new-post.sh`: Creates a new blog post. The first argument is the name of the file (without extension).
+- `scripts/build.sh`: Builds a production version of the site.
 
 # Theme
 
