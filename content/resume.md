@@ -15,7 +15,7 @@ I've been a professional software engineer for over ten years, working on a vari
 * Over ten years of software engineering experience at General Motors, Gusto, and Bonusly.
 * Developed Ruby on Rails applications for Bonusly's recognition and rewards applications.
 * Developed Ruby on Rails services and systems to support Gusto's core payroll products.
-* 7 years of Ruby experience; 8 years of Java experience; 5 years of Javascript experience.
+* 8 years of Ruby experience; 8 years of Java experience; 6 years of Javascript experience.
 
 ---
 ## Work Experience
@@ -24,10 +24,11 @@ I've been a professional software engineer for over ten years, working on a vari
 
 Staff Software Engineer: *Apr. 2024 - Present*
 
-* Reworked the rewards system to enable physical rewards in the Bonusly rewards catalog. Introduction of physical rewards was estimated to double Bonusly rewards revenue.
+* Reworked the rewards system to enable physical rewards in the Bonusly rewards catalog. After launch, users redeemed hundreds of physical rewards per week and hundreds of thousands of dollars in rewards per month.
 * Tech lead of a team that introduced group giving to recognition that resulted in 40% of customers adopting the feature with sustained usage.
 * Tech lead of a team to fill product gaps to enable launch of a new subscription tier (Achieve) to sell to customers and unlock a new, expanded customer base.
 * Introduced developer exerience improvements to the codebase: standardized Rubocop configurations, added an automated dependecy upgrade process, shared extensive examples of best practices, and implemented small quality improvements across the codebase.
+* Added codeownership to the codebvase to match business changes expecting stronger product ownership for teams. Improved team observability of application endpoints and routing of code reviews for teams.
 * Mentored engineers to help grow their careers. Guided engineers through their first experience as tech lead and continued to support them in their journey as a lead. Accelerated engineers' output by guiding them to improve their workflow. Taught engineers principles like prioritizing simple design.
 
 ### Gusto
