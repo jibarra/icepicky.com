@@ -32,7 +32,7 @@ Staff Software Engineer: *Apr. 2024 - Present*
 
 ### Gusto
 
-Staff Software Engineer: *Jan. 2022 - Apr. 2024*
+Senior Staff & Staff Software Engineer: *Jan. 2022 - Apr. 2024*
 
 * Tech lead of a project exploring approaches to extract a major payroll service from the existing monolith to enable a new revenue stream.
 * Designed and developed an API to allow external teams to more easily build new payroll flows. Unblocked multiple teams to build a new mobile app flow, a new spreadsheet flow, and modernization of the existing payroll flow.
