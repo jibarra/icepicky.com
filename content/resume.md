@@ -5,14 +5,14 @@ draft: false
 summary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
 ---
 
-I've been a professional software engineer for over ten years, working on a variety of projects and technologies. As an intern and undergraduate student, I worked at Sandia National Labs and Arizona State University. As a professional software engineer, I've worked at General Motors, Gusto, and Bonusly.
+I've been a professional software engineer for over ten years, working on a variety of projects and technologies. As an intern and undergraduate student, I worked at Sandia National Labs and Arizona State University. As a professional software engineer, I've worked Gusto, Bonusly, and General Motors.
 
 [You can also view a PDF version of this resume.](/static/pdf/Jose%20Ibarra%20Resume.pdf)
 
 ---
 ## Qualifications
 
-* Over ten years of software engineering experience at General Motors, Gusto, and Bonusly.
+* Over ten years of software engineering experience at Gusto, Bonusly, and General Motors.
 * Developed Ruby on Rails applications for Bonusly's recognition and rewards applications.
 * Developed Ruby on Rails services and systems to support Gusto's core payroll products.
 * 8 years of Ruby experience; 8 years of Java experience; 6 years of Javascript experience.
