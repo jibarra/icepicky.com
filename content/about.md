@@ -38,13 +38,13 @@ Briefly, this is what I'm currently doing:
 ## Working with me
 
 - I tend to work early hours and finish my day early.
-- If I notice a problem, I try to solve it if it’s easy & quick to solve. Otherwise, I like to track it somehow to ensure it gets solved.
+- If I notice a problem, I try to solve it if it's easy & quick to solve. Otherwise, I like to track it somehow to ensure it gets solved.
 - I aim to fix the root cause of an issue instead of applying bandaids throughout the system.
-- I'm pretty good at identifying patterns and connecting the dots for issues. Sometimes this can cause me to think ahead of a group and not explain my thought process well.
-- I tend to be pretty organized. I use reminders to follow up on things and maintain a notes doc to revisit ideas. I maintain a near-zero inbox in my personal and work emails.
+- I'm good at identifying patterns and connecting the dots for issues. Sometimes this can cause me to think ahead of a group and not explain my thought process well.
+- I'm organized. I use reminders to follow up on things and maintain a notes doc to revisit ideas. I maintain a near-zero inbox in my personal and work emails.
 - I try to respond to people quickly because I like to ensure people are not blocked.
-- I rigorously prune distractions. I disable a lot of notifications and regularly use focus modes to ensure that my “good” notifications don’t come at “not good” times (e.g. I don’t want work related Slack notifications when I’m not working).
-- I tend to be quiet, particularly with new groups of people. This doesn’t mean that I’m not engaged with the conversation - I just like to gauge the group and ensure I have all the information before speaking up.
+- I rigorously prune distractions. I disable a lot of notifications and regularly use focus modes to ensure that my "good" notifications don't come at "not good" times (e.g. I don't want work related Slack notifications when I'm not working).
+- I tend to be quiet, particularly with new groups of people. This doesn't mean that I'm not engaged with the conversation - I just like to gauge the group and ensure I have all the information before speaking up.
 
 ## Bonusly
 
