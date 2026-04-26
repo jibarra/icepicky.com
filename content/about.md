@@ -7,7 +7,7 @@ summary: "Jose Ibarra is a father, husband, and staff software engineer with an 
 
 I'm a father, husband, and staff software engineer living in the Denver, CO area.
 
-I occasionally [blog here.](/blog/) You can also view some of [my past projects here.](/projects/)
+I occasionally [blog here](/blog/). You can also view some of [my past projects here](/projects/).
 
 <div align="center">
   <img src="/static/img/jose.jpg" alt="Jose Ibarra" style="max-width: 300px;" />
