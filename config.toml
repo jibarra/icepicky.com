@@ -7,12 +7,12 @@ theme = "hugo-theme-console"
 publishDir = "docs"
 
 [[params.navLinks]]
-  name = "resume/"
-  url = "resume/"
+  name = "about/"
+  url = "about/"
 
 [[params.navLinks]]
-  name = "projects/"
-  url = "projects/"
+  name = "resume/"
+  url = "resume/"
 
 [[params.navLinks]]
   name = "blog/"
@@ -21,7 +21,7 @@ publishDir = "docs"
 [params]
   # Metadata for search engines and social sharing
   name = "Jose Ibarra"
-  description = "I'm a staff software engineer at Bonusly and MCS and BS Computer Science graduate from Arizona State University. I previously worked at Gusto, General Motors, and Sandia National Labs."
+  description = "Jose Ibarra is a father, husband, and staff software engineer with an interest in complex domains and solving hard problems."
   shareImage = "static/img/jose.jpg"
   # twitterHandle = "icepickpenguin"
 
@@ -30,3 +30,8 @@ publishDir = "docs"
 
   # Copyright
   copyright = "2018-2026 Jose Ibarra"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -40,7 +40,6 @@ Senior Staff & Staff Software Engineer: *Jan. 2022 - Apr. 2024*
 * Drafted and socialized a tech strategy to guide the Payroll Services org through technical changes in fiscal year 2024.
 * Mentor for engineers across the organization, from junior to senior levels. Helped folks grow their careers, spread knowledge about our complex system, and discussed solutions to system changes.
 
-
 ### Gusto
 
 Senior Software Engineer: *Nov. 2018 - Dec. 2021*
