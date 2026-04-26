@@ -1,0 +1,10 @@
+<div class="footer">
+  {{ .Site.Params.copyright }}
+  <p>
+    {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank" rel="noopener">github</a>{{ end }}
+    {{ if and .Site.Params.github .Site.Params.gitlab }}<span aria-hidden="true" style="color: var(--global-font-color); font-weight: bold;">•</span>{{ end }}
+    {{ with .Site.Params.gitlab }}<a href="{{ . }}" target="_blank" rel="noopener">gitlab</a>{{ end }}
+    {{ if and (or .Site.Params.github .Site.Params.gitlab) .Site.Params.linkedin }}<span aria-hidden="true" style="color: var(--global-font-color); font-weight: bold;">•</span>{{ end }}
+    {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener">linkedin</a>{{ end }}
+  </p>
+</div>

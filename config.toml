@@ -23,13 +23,17 @@ publishDir = "docs"
   name = "Jose Ibarra"
   description = "Jose Ibarra is a father, husband, and staff software engineer with an interest in complex domains and solving hard problems."
   shareImage = "static/img/jose.jpg"
-  # twitterHandle = "icepickpenguin"
 
   # Favicon
   favicon = "favicon.ico"
 
   # Copyright
   copyright = "2018-2026 Jose Ibarra"
+
+  # Social links
+  github = "https://www.github.com/jibarra"
+  gitlab = "https://www.gitlab.com/jibarra"
+  linkedin = "https://www.linkedin.com/in/joseibarraji/"
 
 [markup]
   [markup.goldmark]
