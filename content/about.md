@@ -46,17 +46,13 @@ Briefly, this is what I'm currently doing:
 - I rigorously prune distractions. I disable a lot of notifications and regularly use focus modes to ensure that my “good” notifications don’t come at “not good” times (e.g. I don’t want work related Slack notifications when I’m not working).
 - I tend to be quiet, particularly with new groups of people. This doesn’t mean that I’m not engaged with the conversation - I just like to gauge the group and ensure I have all the information before speaking up.
 
-## Highlights
-
-These are some highlights from my career but more detail is in [my resume.](/resume/)
-
-### Bonusly
+## Bonusly
 
 I'm currently engineering team lead for the rewards system. We've introduced physical rewards to the product, credit card top up, and have completely redesigned the system to make it easier to work in.
 
 I was the engineer team lead focused on improving the core recognition system: added group giving, a new subscription tier, and a revamp of the top down giving system.
 
-### Gusto
+## Gusto
 
 I've previously worked at Gusto working on the entire payroll system from the payroll inputs, to the tax calculations, all the way to the tax payments and filings. These are the things I'm most proud of:
 
@@ -65,7 +61,7 @@ I've previously worked at Gusto working on the entire payroll system from the pa
 - Revamping the on-call process to significantly improve the on-call experience.
 - Redesigning the 1099 system while supporting the new federal 1099 spec.
 
-### General Motors
+## General Motors
 
 I worked at General Motors where I focused on applications to support their complex supply chain. I'm most proud of the hackathon projects I did there, which are listed on [my projects page.](/projects/)
 
@@ -83,7 +79,7 @@ I'm married to my wife, Krystal. As of 2026, we have a baby girl. We have two ca
 - Thoughtfulness: I try to be thoughtful in my words and actions because I know they have consequences. I don't like jumping straight into something unless there's a clear goal and conclusion for it. I like doing things with intention.
 - Doing the right thing: This can expand to many things. At work, it could mean thoughtfully choosing our work so that we're doing the most important thing at the moment. In life, it means standing up for others and making the world a better place. At home, it means improving the lives of those around me.
 
-# Interests
+## Interests
 
 My main hobbies are running and playing video games. I also weight lift (mostly to stay healthy), read, and watch movies with my family.
 
