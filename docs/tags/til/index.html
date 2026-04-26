@@ -104,9 +104,9 @@
     
         <div class="post">
             <p>
-                <div class="date">Nov. 8, 2023</div>
+            <div class="date">Nov 8, 2023</div>
                 <h1><a href="//www.icepicky.com/blog/til-git-force-with-lease/" title="TIL: Git Force With Lease">TIL: Git Force With Lease</a></h1>
-                <p>Today I learned about <a href="https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaseltrefnamegt" target="_blank" rel="noopener">the Git <code>--force-with-lease</code> command.</a> </p>
+                <p>Today I learned about <a href="https://git-scm.com/docs/git-push#Documentation/git-push.txt---force-with-leaseltrefnamegt" target="_blank" rel="noopener">the Git <code>--force-with-lease</code> command.</a></p>
 <p>I&rsquo;ll restate a description of the command but it allows you to rebase and force push with less risks than using <code>--force</code>. If you had pushed your changes up to a remote branch and somebody else had pushed up new changes to that remote branch while you&rsquo;re rebasing. After you finish rebasing, a normal <code>git push</code> will fail because the local refs don&rsquo;t match the remote ones. Usually people will <code>git push --force</code> at this point because they were just rebasing their branch. However, this would wipe away commits on the remote branch. This is easy to do if you&rsquo;re working on a branch and don&rsquo;t realize that somebody else had commit to it.</p>
             </p>
         </div>
@@ -115,7 +115,7 @@
     
         <div class="post">
             <p>
-                <div class="date">Nov. 7, 2023</div>
+            <div class="date">Nov 7, 2023</div>
                 <h1><a href="//www.icepicky.com/blog/til-sql-distinct-efficiency/" title="TIL: SQL DISTINCT Efficiency">TIL: SQL DISTINCT Efficiency</a></h1>
                 <p>Today I learned that <code>DISTINCT</code> statements can cause efficiency problems.</p>
 <p>I was looking at some code that made a few joins across tables and used distinct for the column names. The query was causing high CPU load and it wasn&rsquo;t immediately obvious from first glance why that was happening. You could imagine the query looked like this (with a few more joins and selects):</p>
@@ -131,7 +131,7 @@
     
         <div class="post">
             <p>
-                <div class="date">Aug. 21, 2023</div>
+            <div class="date">Aug 21, 2023</div>
                 <h1><a href="//www.icepicky.com/blog/til-mysql-transaction-isolation-levels/" title="TIL: MySQL Transaction Isolation Levels">TIL: MySQL Transaction Isolation Levels</a></h1>
                 <p>Today I learned about MySQL transaction isolation levels.</p>
 <p>I was trying to debug issues where concurrent processes didn&rsquo;t seem to be locking rows in the database correctly. A simplified version of the offending code could look something like this (comments added for those unfamiliar with Rails):</p>
@@ -166,7 +166,16 @@
 </div>
 
 
-        <div class="footer">2018-2026 Jose Ibarra</div>
+        <div class="footer">
+  2018-2026 Jose Ibarra
+  <p>
+    <a href="https://www.github.com/jibarra" target="_blank" rel="noopener">github</a>
+    <span aria-hidden="true" style="color: var(--global-font-color); font-weight: bold;">•</span>
+    <a href="https://www.gitlab.com/jibarra" target="_blank" rel="noopener">gitlab</a>
+    <span aria-hidden="true" style="color: var(--global-font-color); font-weight: bold;">•</span>
+    <a href="https://www.linkedin.com/in/joseibarraji/" target="_blank" rel="noopener">linkedin</a>
+  </p>
+</div>
 
     </div>
   </body>
