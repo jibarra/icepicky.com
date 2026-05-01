@@ -1,128 +1,15 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    
-      <title>Jose Ibarra &middot; Problem Decomposition</title>
-    
-
-    
-      
-        <meta name="description" content="Jose Ibarra is a father, husband, and staff software engineer with an interest in complex domains and solving hard problems.">
-        <meta property="og:description" content="Jose Ibarra is a father, husband, and staff software engineer with an interest in complex domains and solving hard problems." />
-      
-    
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <meta name="referrer" content="always" />
-    <meta name="googlebot" content="index,follow,snippet,archive">
-    <link rel="stylesheet" href="//www.icepicky.com/hugo-theme-console/css/terminal-0.7.4.min.css">
-    
-    <link rel="stylesheet" href="//www.icepicky.com/hugo-theme-console/css/console.css">
-    
-      <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-       <meta property="og:title" content="Problem Decomposition" />
-<meta property="og:description" content="Jose Ibarra is a father, husband, and staff software engineer with an interest in complex domains and solving hard problems." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="//www.icepicky.com/blog/problem-decomposition/" /><meta property="article:published_time" content="2026-05-01T05:12:38-06:00" />
-
-
-
-<meta name="twitter:title" content="Problem Decomposition"/>
-<meta name="twitter:description" content="Problem decomposition has always been a key skill for software engineers. Even with LLMs, it continues to be important to be successful. LLMs don&rsquo;t have infinite context and even with lots of context, they struggle to produce accurate outputs when the context is too large. So breaking down problems helps LLMs be a useful tool and also helps you think through problems.
-I&rsquo;m going to talk about how it&rsquo;s useful and then discuss how to build the skill. But the most important thing to remember is that breaking down problems is a skill learned through practice so try to practice it as much as you can."/>
-
-</head>
-<body class="terminal">
-    <div class="container">
-        <div class="terminal-nav">
-          <header class="terminal-logo">
-            <div class="logo terminal-prompt">
-              
-              
-              <a href="//www.icepicky.com/" class="no-style ">
-                Jose Ibarra
-              </a>
-              :~#
-              
-                
-                  <a href='//www.icepicky.com/blog' class="terminal-path">blog</a>
-                  /
-                  
-                
-              
-                
-                  <a href='//www.icepicky.com/blog/problem-decomposition' class="terminal-path">problem-decomposition</a>
-                  /
-                  
-                
-              
-                
-              
-            </div>
-          </header>
-          <nav class="terminal-menu">
-            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-                
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="//www.icepicky.com/about/">
-                    <span property="name">about/</span></a>
-                    <meta property="position" content="1" />
-                </li>
-                
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="//www.icepicky.com/resume/">
-                    <span property="name">resume/</span></a>
-                    <meta property="position" content="2" />
-                </li>
-                
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="//www.icepicky.com/blog/">
-                    <span property="name">blog/</span></a>
-                    <meta property="position" content="3" />
-                </li>
-                
-            </ul>
-          </nav>
-        </div>
-    </div>
-
-    <div class="container " >
-        
-<h1>Problem Decomposition</h1>
-<p>Problem decomposition has always been a key skill for software engineers. Even with LLMs, it continues to be important to be successful. LLMs don&rsquo;t have infinite context and even with lots of context, they struggle to produce accurate outputs when the context is too large. So breaking down problems helps LLMs be a useful tool and also helps you think through problems.</p>
-<p>I&rsquo;m going to talk about how it&rsquo;s useful and then discuss how to build the skill. But the most important thing to remember is that breaking down problems is a skill learned through practice so try to practice it as much as you can.</p>
-<h1 id="execution">Execution</h1> <p>Execution is where most engineers demonstrate problem decomposition. When you&rsquo;ve picked up a ticket, you&rsquo;re likely figuring out the parts to resolve it: what needs to be done, what needs to change, and how you&rsquo;ll land it. You could be considering if you want it to be separate pull requests too.</p>
-<p>This skill can be applied at a larger scale. For projects, you can break it down into individual pieces. This helps to isolate the pieces of a project into component parts and allows you to build it into a cohesive solution. When separated in smaller pieces, you can think through the order of release and think through any safety or launch concerns. You can choose good stopping points too: you could split up a project in two and release the first part to learn in preparation for the second release.</p>
-<p>Splitting it up can help you and others understand your approach. The separation allows you to describe the issue and solution at different granularity levels. You can describe it at a high level so that you can explain the approach to people not familiar with the specifics. Others can glance at a high level explanation and understand how the problem would be solved. And for people more familiar, they can dive into the details to get a clear understanding of the specifics. This way, you and others can critically analyze an approach from the general steps (e.g. &ldquo;yes, generally this would solve our issue&rdquo;) and also at a detailed level to resolve edge cases (e.g. &ldquo;this will work for our large customers too&rdquo;).</p>
-<p>Dividing up the execution of tasks, big or small, enables you to think through the best way to solve your problems. The more you do it, the better your execution will become.</p>
-<h1 id="expanded-to-other-areas">Expanded to other areas</h1> <p>Breaking down problems can be applied to other areas beyond execution, too.</p>
-<p>You can use the skill when you want to make broad org changes. If you have a problem you want to solve for the org, break it down into small parts and apply those parts to see if it&rsquo;ll work. In smaller pieces, you can introduce change to a small group of people, learn from it, and iterate on it as you expand it to other areas of the org. It also makes it easier to roll out more broadly because it helps build momentum.</p>
-<p>Breaking down a problem helps understand a new codebase or domain, too. You don&rsquo;t need to understand everything to be productive in a domain. If you&rsquo;re comfortable breaking it down into pieces, you can slowly learn and understand what you need as you go. It helps you be effective without being a complete expert.</p>
-<p>The skill helps when investigating bugs too. Breaking down the problem solving helps a lot here: reproducing the bug, identifying problem areas, proving the cause, and resolving it are all separate steps. Approaching it in smaller pieces means you don&rsquo;t have to solve it all at once.</p>
-<p>Problem decomposition works well in your personal life too. It helps with chores: it&rsquo;s a lot easier to finish a big chore in smaller steps. It helps with teaching someone something new: you can break the learning down into pieces and slowly teach each piece.</p>
-<h1 id="practice">Practice</h1> <p>The key to improving your skill of breaking down problems is to practice it. When you&rsquo;re working on a ticket, break it up into small PRs or commits that make sense in isolation. When working on a small project, break it out into implementable tickets. When working on a large project, break it out into small projects that can be delivered separately.</p>
-<p>Don&rsquo;t forget that this is a learning experience: don&rsquo;t be afraid to write out your thought process and reevaluate your approach if it doesn&rsquo;t make sense on review.</p>
-<p>Keep practicing and the skill will become second nature.</p>
-
-
-        <div class="footer">
-  2018-2026 Jose Ibarra
-  <p>
-    <a href="https://www.github.com/jibarra" target="_blank" rel="noopener">github</a>
-    <span aria-hidden="true" style="color: var(--global-font-color); font-weight: bold;">•</span>
-    <a href="https://www.gitlab.com/jibarra" target="_blank" rel="noopener">gitlab</a>
-    <span aria-hidden="true" style="color: var(--global-font-color); font-weight: bold;">•</span>
-    <a href="https://www.linkedin.com/in/joseibarraji/" target="_blank" rel="noopener">linkedin</a>
-  </p>
-</div>
-
-    </div>
-  </body>
-</html>
+<!doctype html><html lang=en-US><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Jose Ibarra &#183; Problem Decomposition</title>
+<meta name=description content="Jose Ibarra is a father, husband, and staff software engineer with an interest in complex domains and solving hard problems."><meta property="og:description" content="Jose Ibarra is a father, husband, and staff software engineer with an interest in complex domains and solving hard problems."><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="all,follow"><meta name=referrer content="always"><meta name=googlebot content="index,follow,snippet,archive"><link rel=stylesheet href=//www.icepicky.com/hugo-theme-console/css/terminal-0.7.4.min.css><link rel=stylesheet href=//www.icepicky.com/hugo-theme-console/css/console.css><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script><script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]--><meta property="og:title" content="Problem Decomposition"><meta property="og:description" content="Jose Ibarra is a father, husband, and staff software engineer with an interest in complex domains and solving hard problems."><meta property="og:type" content="article"><meta property="og:url" content="//www.icepicky.com/blog/problem-decomposition/"><meta property="article:published_time" content="2026-05-01T05:12:38-06:00"><meta name=twitter:title content="Problem Decomposition"><meta name=twitter:description content="Problem decomposition has always been a key skill for software engineers. Even with LLMs, it continues to be important to be successful. LLMs don&rsquo;t have infinite context and even with lots of context, they struggle to produce accurate outputs when the context is too large. So breaking down problems helps LLMs be a useful tool and also helps you think through problems.
+I&rsquo;m going to talk about how it&rsquo;s useful and then discuss how to build the skill. But the most important thing to remember is that breaking down problems is a skill learned through practice so try to practice it as much as you can."></head><body class=terminal><div class=container><div class=terminal-nav><header class=terminal-logo><div class="logo terminal-prompt"><a href=//www.icepicky.com/ class=no-style>Jose Ibarra
+</a>:~#
+<a href=//www.icepicky.com/blog class=terminal-path>blog</a>
+/
+<a href=//www.icepicky.com/blog/problem-decomposition class=terminal-path>problem-decomposition</a>
+/</div></header><nav class=terminal-menu><ul vocab="https://schema.org/" typeof="BreadcrumbList"><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/about/><span property="name">about/</span></a>
+<meta property="position" content="1"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/resume/><span property="name">resume/</span></a>
+<meta property="position" content="2"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href=//www.icepicky.com/blog/><span property="name">blog/</span></a>
+<meta property="position" content="3"></li></ul></nav></div></div><div class=container><h1>Problem Decomposition</h1><p>Problem decomposition has always been a key skill for software engineers. Even with LLMs, it continues to be important to be successful. LLMs don&rsquo;t have infinite context and even with lots of context, they struggle to produce accurate outputs when the context is too large. So breaking down problems helps LLMs be a useful tool and also helps you think through problems.</p><p>I&rsquo;m going to talk about how it&rsquo;s useful and then discuss how to build the skill. But the most important thing to remember is that breaking down problems is a skill learned through practice so try to practice it as much as you can.</p><h1 id=execution>Execution</h1><p>Execution is where most engineers demonstrate problem decomposition. When you&rsquo;ve picked up a ticket, you&rsquo;re likely figuring out the parts to resolve it: what needs to be done, what needs to change, and how you&rsquo;ll land it. You could be considering if you want it to be separate pull requests too.</p><p>This skill can be applied at a larger scale. For projects, you can break it down into individual pieces. This helps to isolate the pieces of a project into component parts and allows you to build it into a cohesive solution. When separated in smaller pieces, you can think through the order of release and think through any safety or launch concerns. You can choose good stopping points too: you could split up a project in two and release the first part to learn in preparation for the second release.</p><p>Splitting it up can help you and others understand your approach. The separation allows you to describe the issue and solution at different granularity levels. You can describe it at a high level so that you can explain the approach to people not familiar with the specifics. Others can glance at a high level explanation and understand how the problem would be solved. And for people more familiar, they can dive into the details to get a clear understanding of the specifics. This way, you and others can critically analyze an approach from the general steps (e.g. &ldquo;yes, generally this would solve our issue&rdquo;) and also at a detailed level to resolve edge cases (e.g. &ldquo;this will work for our large customers too&rdquo;).</p><p>Dividing up the execution of tasks, big or small, enables you to think through the best way to solve your problems. The more you do it, the better your execution will become.</p><h1 id=expanded-to-other-areas>Expanded to other areas</h1><p>Breaking down problems can be applied to other areas beyond execution, too.</p><p>You can use the skill when you want to make broad org changes. If you have a problem you want to solve for the org, break it down into small parts and apply those parts to see if it&rsquo;ll work. In smaller pieces, you can introduce change to a small group of people, learn from it, and iterate on it as you expand it to other areas of the org. It also makes it easier to roll out more broadly because it helps build momentum.</p><p>Breaking down a problem helps understand a new codebase or domain, too. You don&rsquo;t need to understand everything to be productive in a domain. If you&rsquo;re comfortable breaking it down into pieces, you can slowly learn and understand what you need as you go. It helps you be effective without being a complete expert.</p><p>The skill helps when investigating bugs too. Breaking down the problem solving helps a lot here: reproducing the bug, identifying problem areas, proving the cause, and resolving it are all separate steps. Approaching it in smaller pieces means you don&rsquo;t have to solve it all at once.</p><p>Problem decomposition works well in your personal life too. It helps with chores: it&rsquo;s a lot easier to finish a big chore in smaller steps. It helps with teaching someone something new: you can break the learning down into pieces and slowly teach each piece.</p><h1 id=practice>Practice</h1><p>The key to improving your skill of breaking down problems is to practice it. When you&rsquo;re working on a ticket, break it up into small PRs or commits that make sense in isolation. When working on a small project, break it out into implementable tickets. When working on a large project, break it out into small projects that can be delivered separately.</p><p>Don&rsquo;t forget that this is a learning experience: don&rsquo;t be afraid to write out your thought process and reevaluate your approach if it doesn&rsquo;t make sense on review.</p><p>Keep practicing and the skill will become second nature.</p><div class=footer>2018-2026 Jose Ibarra<p><a href=https://www.github.com/jibarra target=_blank rel=noopener>github</a>
+<span aria-hidden=true style=color:var(--global-font-color);font-weight:700>•</span>
+<a href=https://www.gitlab.com/jibarra target=_blank rel=noopener>gitlab</a>
+<span aria-hidden=true style=color:var(--global-font-color);font-weight:700>•</span>
+<a href=https://www.linkedin.com/in/joseibarraji/ target=_blank rel=noopener>linkedin</a></p></div></div></body></html>
