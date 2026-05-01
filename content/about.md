@@ -73,11 +73,11 @@ I'm married to my wife, Krystal. As of 2026, we have a baby girl. We have two ca
 
 ## Values
 
-- Authenticity: I value being authentic and direct with what I'm thinking and how I'm feeling with people. This gives everyone the information they need so that we can have an effective relationship.
+- Authenticity: I value being authentic and direct with what I'm thinking and how I'm feeling with people. This gives everyone the information they need so that we can have an effective relationship and builds more trusting relationships.
 - Achievement: I like to accomplish things and succeed. I like to see my work projects launch and I like to see people use what I make. At home, I feel accomplished completing tasks or feeling like I've made a big step forward.
 - Learning: I love to learn. New things are exciting to me and can help satisfy the "puzzle itch" that I have. That's why I like working in complex systems and why I like reading about new things.
-- Thoughtfulness: I try to be thoughtful in my words and actions because I know they have consequences. I don't like jumping straight into something unless there's a clear goal and conclusion for it. I like doing things with intention.
-- Doing the right thing: This can expand to many things. At work, it could mean thoughtfully choosing our work so that we're doing the most important thing at the moment. In life, it means standing up for others and making the world a better place. At home, it means improving the lives of those around me.
+- Thoughtfulness: I try to be thoughtful with my words and actions because I know they have consequences. I don't like jumping straight into something unless there's a clear goal and conclusion for it. I like doing things with intention.
+- Doing the right thing: This can apply to many things. At work, it could mean thoughtfully choosing our work so that we're doing the most important thing at the moment. In life, it means standing up for others and making the world a better place. At home, it means improving the lives of those around me.
 
 ## Interests
 
