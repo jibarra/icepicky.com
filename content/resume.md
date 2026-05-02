@@ -12,10 +12,10 @@ I've been a professional software engineer for over ten years, working on a vari
 ---
 ## Qualifications
 
-* Over ten years of software engineering experience at Gusto, Bonusly, and General Motors.
-* Developed Ruby on Rails applications for Bonusly's recognition and rewards applications.
-* Developed Ruby on Rails services and systems to support Gusto's core payroll products.
-* 8 years of Ruby experience; 8 years of Java experience; 6 years of Javascript experience.
+* Staff software engineer with 10+ years building high-stakes financial systems: payroll, tax, and rewards platforms processing billions of dollars in transactions for hundreds of thousands of businesses.
+* Track record of taming legacy systems in complex domains: extracting services from monoliths, designing APIs that unblock parallel team development, and simplifying technical design to accelerate product work and make platforms easier to extend.
+* Sets technical direction across engineering orgs: owning multi-team strategy documents, raising the bar on developer experience, and mentoring engineers from junior through senior (multiple promoted).
+* Deep expertise in Ruby on Rails (8 years), with additional experience in Java (8 years) and JavaScript (6 years).
 
 ---
 ## Work Experience
@@ -24,32 +24,31 @@ I've been a professional software engineer for over ten years, working on a vari
 
 Staff Software Engineer: *Apr. 2024 - Present*
 
-* Reworked the rewards system to enable physical rewards in the Bonusly rewards catalog. After launch, users redeemed hundreds of physical rewards per week and hundreds of thousands of dollars in rewards per month.
+* Enabled physical rewards in the Bonusly catalog (driving $2M increased yearly redemptions) by collapsing data models and introducing simpler design patterns, making the system significantly easier to extend.
 * Tech lead of a team that introduced group giving to recognition that resulted in 40% of customers adopting the feature with sustained usage.
-* Tech lead of a team to fill product gaps to enable launch of a new subscription tier (Achieve) to sell to customers and unlock a new, expanded customer base.
-* Introduced developer exerience improvements to the codebase: standardized Rubocop configurations, added an automated dependecy upgrade process, shared extensive examples of best practices, and implemented small quality improvements across the codebase.
-* Added codeownership to the codebvase to match business changes expecting stronger product ownership for teams. Improved team observability of application endpoints and routing of code reviews for teams.
-* Mentored engineers to help grow their careers. Guided engineers through their first experience as tech lead and continued to support them in their journey as a lead. Accelerated engineers' output by guiding them to improve their workflow. Taught engineers principles like prioritizing simple design.
+* Unlocked a new customer segment by tech-leading the team that closed product gaps to launch the Achieve subscription tier.
+* Led org-wide developer experience initiatives across ~20 engineers (the entire engineering org): standardized linting configs (eliminating recurring style debates), automated dependency upgrades (reducing manual upgrade work by 10+ hours a month), and code ownership tooling that cut average PR review time by several hours.
+* Coached first-time tech leads to on-time project delivery and authored the team's design patterns and coding principles guide, establishing shared standards across the engineering org.
 
 ### Gusto
 
 Senior Staff & Staff Software Engineer: *Jan. 2022 - Apr. 2024*
 
-* Tech lead of a project exploring approaches to extract a major payroll service from the existing monolith to enable a new revenue stream.
-* Designed and developed an API to allow external teams to more easily build new payroll flows. Unblocked multiple teams to build a new mobile app flow, a new spreadsheet flow, and modernization of the existing payroll flow.
-* Drafted and socialized a tech strategy to guide the Payroll Services org through technical changes in fiscal year 2024.
-* Mentor for engineers across the organization, from junior to senior levels. Helped folks grow their careers, spread knowledge about our complex system, and discussed solutions to system changes.
+* Tech lead on extracting a major payroll service from the monolith to unlock a new revenue stream. Delivered a migration plan and proof of concept that enabled the company to evaluate the opportunity.
+* Designed and shipped a new payroll platform API consumed by 3 downstream teams, enabling parallel development of a new mobile app, spreadsheet import flow, and modernized web payroll experience without requiring changes to the core payroll engine.
+* Authored and drove adoption of the FY2024 technical strategy for the Payroll Services org (40 engineers across 5 teams), aligning roadmaps around improved service boundaries and informing the technical direction for FY2024 planning.
+* Mentored 6 engineers across junior to senior levels (3 promoted) and spread deep knowledge of the payroll system's internals across teams.
 
 ### Gusto
 
 Senior Software Engineer: *Nov. 2018 - Dec. 2021*
 
+* Built out system to provide over $1 billion of COVID tax credits to over 10% of employers for relief due to COVID.
+* * Tech lead on a project to refactor the federal and state 1099 system to support filing new 1099-NEC specification for 300,000+ filings for the 2020 tax year.
 * Tech lead of a team that introduced improvements to the run payroll frontend including displaying payroll input totals, revamping payroll error display, and revamping the display of payroll calendars. Drove down preventable errors in the run payroll flow by 99%, removed unactionable errors for 4.4% customers, and increased user throughput through the critical flow.
 * Led an effort to improve our on-call workload through process and coding improvements for a group of 30 engineers.
-* Tech lead on a project to refactor the federal and state 1099 system to support filing new 1099-NEC specification for 300,000+ filings for the 2020 tax year.
-* Built out system to provide over $1 billion of COVID tax credits to over 10% of employers for relief due to COVID.
 * Tech lead to reduce production console access for team by establishing processes and building new operational tools. Reduced all console access by 87% and write-enabled console access by 83% for the team.
-* Delivered over a hundred interviews while Gusto was scaling up the engineering team. Served on the hiring excellence committee to improve interviewing standards, developing new interview questions and rubrics to consistently evaluate candidates.
+* Conducted 100+ interviews while Gusto was scaling up the engineering team. Served on the hiring excellence committee to improve interviewing standards, developing new interview questions and rubrics to consistently evaluate candidates.
 
 ---
 ## Education
