@@ -5,17 +5,9 @@ draft: false
 summary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
 ---
 
-I've been a professional software engineer for over ten years, working on a variety of projects and technologies. As an intern and undergraduate student, I worked at Sandia National Labs and Arizona State University. As a professional software engineer, I've worked Gusto, Bonusly, and General Motors.
+Staff software engineer with 10+ years building high‑stakes financial systems in complex domains: payroll, tax, and rewards platforms processing billions of dollars in transactions for hundreds of thousands of businesses.
 
 [You can also view a PDF version of this resume.](/static/pdf/Jose%20Ibarra%20Resume.pdf)
-
----
-## Qualifications
-
-* Staff software engineer with 10+ years building high-stakes financial systems: payroll, tax, and rewards platforms processing billions of dollars in transactions for hundreds of thousands of businesses.
-* Track record of taming legacy systems in complex domains: extracting services from monoliths, designing APIs that unblock parallel team development, and simplifying technical design to accelerate product work and make platforms easier to extend.
-* Sets technical direction across engineering orgs: owning multi-team strategy documents, raising the bar on developer experience, and mentoring engineers from junior through senior (multiple promoted).
-* Deep expertise in Ruby on Rails (8 years), with additional experience in Java (8 years) and JavaScript (6 years).
 
 ---
 ## Work Experience
@@ -24,7 +16,7 @@ I've been a professional software engineer for over ten years, working on a vari
 
 Staff Software Engineer: *Apr. 2024 - Present*
 
-* Drove $2M in increased yearly redemptions by enabling physical rewards in the Bonusly catalog. Collapsed data models and introduced simpler design patterns that made the system significantly easier to extend.
+* Generated $2M in increased yearly redemptions by enabling physical rewards in the Bonusly catalog. Collapsed data models and introduced simpler design patterns that made the system significantly easier to extend.
 * Drove 40% customer adoption of group giving by tech-leading the team that launched the feature for recognition.
 * Unlocked a new customer segment by tech-leading the team that closed product gaps to launch the Achieve subscription tier.
 * Cut average PR review time by several hours and eliminated 10+ hours/month of manual dependency work by leading developer experience initiatives across the entire 20-engineer org: standardized linting configs, automated dependency upgrades, and built code ownership tooling.
@@ -49,6 +41,29 @@ Senior Software Engineer: *Nov. 2018 - Dec. 2021*
 * Led an effort to improve our on-call workload through process and coding improvements for a group of 30 engineers.
 * Tech lead to reduce production console access for team by establishing processes and building new operational tools. Reduced all console access by 87% and write-enabled console access by 83% for the team.
 * Conducted 100+ interviews while Gusto was scaling up the engineering team. Served on the hiring excellence committee to improve interviewing standards, developing new interview questions and rubrics to consistently evaluate candidates.
+
+---
+## Skills
+
+### Domains
+
+Payroll, tax, and payments systems; rewards and incentive platforms; high-stakes financial systems processing billions in transactions
+
+### Architecture
+
+API design and platform engineering; monolith decomposition; designing service boundaries for multi-team consumption; data model simplification and refactoring
+
+### Leadership
+
+Org-wide technical strategy; mentoring and developing engineers (junior through senior); interviewing and hiring
+
+### DevEx
+
+On-call process design; dependency management automation; developer experience tooling; reducing operational toil at org scale
+
+### Tech
+
+Ruby, Java, JavaScript/TypeScript, SQL · Rails, React · MySQL, PostgreSQL, MongoDB · AWS, Docker
 
 ---
 ## Education
