@@ -5,7 +5,7 @@ draft: false
 summary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
 ---
 
-Staff engineer with 10+ years building business-critical payroll, tax, and rewards systems - designing the platform boundaries, APIs, and technical strategy that let multi-team orgs in complex domains ship in parallel.
+I'm the engineer leaders turn to when change feels risky or a team's path forward is unclear - sometimes by setting strategy, sometimes by writing the migration myself. In complex domains like payroll, tax, and rewards, I translate product vision into the platform boundaries, APIs, and technical strategy that let multi-team organizations ship.
 
 [You can also view a PDF version of this resume.](/static/pdf/Jose%20Ibarra%20Resume.pdf)
 
