@@ -5,7 +5,7 @@ draft: false
 summary: "Jose Ibarra's resume covering previous project & development experience, publications, education, work experience, and strengths."
 ---
 
-Staff software engineer with 10+ years building high‑stakes financial systems in complex domains: payroll, tax, and rewards platforms processing billions of dollars in transactions for hundreds of thousands of businesses.
+Staff engineer with 10+ years building business-critical payroll, tax, and rewards systems - designing the platform boundaries, APIs, and technical strategy that let multi-team orgs in complex domains ship in parallel.
 
 [You can also view a PDF version of this resume.](/static/pdf/Jose%20Ibarra%20Resume.pdf)
 
@@ -16,7 +16,7 @@ Staff software engineer with 10+ years building high‑stakes financial systems 
 
 Staff Software Engineer: *Apr. 2024 - Present*
 
-* Generated $2M in increased yearly redemptions by enabling physical rewards in the Bonusly catalog. Collapsed data models and introduced simpler design patterns that made the system significantly easier to extend.
+* Generated $2M in increased yearly redemptions by introducing physical rewards to the Bonusly catalog. Collapsed data models and introduced simpler design patterns that made the system significantly easier to extend.
 * Drove 40% customer adoption of group giving by tech-leading the team that launched the feature for recognition.
 * Unlocked a new customer segment by spearheading the team that closed product gaps to ship the Achieve subscription tier.
 * Cut average PR review time by several hours and eliminated 10+ hours/month of manual dependency work by leading developer experience initiatives across the entire 20-engineer org: standardized linting configs, automated dependency upgrades, and built code ownership tooling.
