@@ -4,7 +4,7 @@ date: 2026-09-15T19:21:05-06:00
 draft: false
 ---
 
-I hate that AI hallucinates. I hate that AI is not deterministic. I hate that AI adds friction to remain in control. [I hate that AI is taking away people's jobs.](https://tomtunguz.com/marginal-hire/)
+I hate that AI hallucinates. I hate that AI is not deterministic. I hate that AI adds friction to remain in control. I hate that AI [is taking away people's jobs.](https://tomtunguz.com/marginal-hire/)
 
 I hate that AI [pushes people to become generalists.](https://bonusly.com/post/maybe-this-everyones-a-builder-thing-is-wrong) I hate that AI [causes people to forgo good practices.](https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about) I hate that AI causes people to lack understanding. I hate that AI [is eliminating the path from juniors to seniors.](https://nmn.gl/blog/ai-and-learning) I hate that AI [makes novices feel like experts.](https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/)
 
