@@ -1,6 +1,6 @@
 # Site settings
 baseURL = "//www.icepicky.com/"
-languageCode = "en-US"
+locale = "en-US"
 title = "Jose Ibarra"
 theme = "hugo-theme-console"
 # Added for publishing on Github Pages
