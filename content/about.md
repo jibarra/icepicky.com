@@ -18,8 +18,8 @@ I occasionally [blog here](/blog/). You can also view some of [my past projects 
 Briefly, this is what I'm currently doing:
 
 - I'm raising my daughter with my wife and trying my best to be a good parent.
-- I'm working at Bonusly, actively working on improving and expanding the rewards system.
-- I'm re-reading Dune. This is my third go around and I'm going to try to read the whole Frank Herbert part of the series - the furthest I've gotten is through book four.
+- I'm working at Medallion, improving medical credentialing for millions of providers.
+- I'm re-reading the Dune series. This is my third go around and I'm going to try to read the whole Frank Herbert part of the series - the furthest I've gotten is through book four.
 - I'm building up my running stamina again after the birth of our daughter.
 
 ---
@@ -32,13 +32,13 @@ Briefly, this is what I'm currently doing:
 - I enjoy challenging myself.
 - I enjoy mentoring folks.
 - I enjoy working on the backend.
-- I enjoy having the time to push out changes.
+- I enjoy having the time to execute on changes.
 - I enjoy being given the time to introspectively and strateglically think.
 
 ## Working with me
 
 - I tend to work early hours and finish my day early.
-- If I notice a problem, I try to solve it if it's easy & quick to solve. Otherwise, I like to track it somehow to ensure it gets solved.
+- If I notice a problem, I try to solve it if it's easy & quick to solve. Otherwise, I like to track it to ensure it gets solved.
 - I aim to fix the root cause of an issue instead of applying bandaids throughout the system.
 - I'm good at identifying patterns and connecting the dots for issues. Sometimes this can cause me to think ahead of a group and not explain my thought process well.
 - I'm organized. I use reminders to follow up on things and maintain a notes doc to revisit ideas. I maintain a near-zero inbox in my personal and work emails.
@@ -46,11 +46,15 @@ Briefly, this is what I'm currently doing:
 - I rigorously prune distractions. I disable a lot of notifications and regularly use focus modes to ensure that my "good" notifications don't come at "not good" times (e.g. I don't want work related Slack notifications when I'm not working).
 - I tend to be quiet, particularly with new groups of people. This doesn't mean that I'm not engaged with the conversation - I just like to gauge the group and ensure I have all the information before speaking up.
 
+## Medallion
+
+I'm currently working on the team building the core platform of the Medallion system.
+
 ## Bonusly
 
-I'm currently engineering team lead for the rewards system. We've introduced physical rewards to the product, credit card top up, and have completely redesigned the system to make it easier to work in.
+I previously led the engineering team lead for the rewards system. We introduced physical rewards to the product, credit card top up, and completely redesigned the system to make it easier to work in.
 
-I was the engineer team lead focused on improving the core recognition system: added group giving, a new subscription tier, and a revamp of the top down giving system.
+I was also the engineer team lead focused on improving the core recognition system: added group giving, a new subscription tier, and a revamp of the top down giving system.
 
 ## Gusto
 
@@ -73,7 +77,7 @@ I'm married to my wife, Krystal. As of 2026, we have a baby girl. We have two ca
 
 ## Values
 
-- Authenticity: I value being authentic and direct with what I'm thinking and how I'm feeling with people. This gives everyone the information they need so that we can have an effective relationship and builds more trusting relationships.
+- Authenticity: I value being authentic and direct with what I'm thinking and how I'm feeling. This gives everyone the information they need so that we can have an effective relationship. I believe authenticity builds more trusting relationships with others.
 - Achievement: I like to accomplish things and succeed. I like to see my work projects launch and I like to see people use what I make. At home, I feel accomplished completing tasks or feeling like I've made a big step forward.
 - Learning: I love to learn. New things are exciting to me and can help satisfy the "puzzle itch" that I have. That's why I like working in complex systems and why I like reading about new things.
 - Thoughtfulness: I try to be thoughtful with my words and actions because I know they have consequences. I don't like jumping straight into something unless there's a clear goal and conclusion for it. I like doing things with intention.
@@ -110,6 +114,8 @@ In no particular order:
 - Wall-E
 - The Banshees of Inisherin
 
+[icepicky on Letterboxd](https://letterboxd.com/icepicky/)
+
 ## Music
 
 In no particular order (although Kendrick is my current favorite artist):
@@ -121,6 +127,8 @@ In no particular order (although Kendrick is my current favorite artist):
 - Run the Jewels
 - Lupe Fiasco
 - KAYTRANADA
+
+[icepickpenguin on last.fm](https://www.last.fm/user/icepickpenguin) - Note this doesn't include listens from using YouTube Music (my new music service)
 
 ## Television
 
@@ -135,4 +143,8 @@ In no particular order:
 
 ## Books
 
-- Dune
+- Dune and Dune Messiah
+- The Broken Earth series
+- The Rememberance of Earth's Past series
+
+[My Margins profile](https://margins.app/u/f3221125f79d465a9a54d25fc6e566eb)
